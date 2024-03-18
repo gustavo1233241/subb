@@ -113,8 +113,44 @@ body {
     justify-content: center;
     background: #faf8f8;
     width: 500px;
-    height: 100px;
+    height: 70px;
 }
+
+
+#circulo {
+
+    position: absolute;
+    right: 205px;
+    margin-top: -13px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+   
+}
+.pessoa{
+
+width: 42px;
+height: 35px;
+position: absolute;
+right: 130px;
+margin-top: 10px;
+
+    
+}
+
+
+.aces{
+
+    position: absolute;
+    right: 100px;
+    margin-top: 42px;
+    
+    }
+
+
+
 .busq{
 
 
@@ -127,8 +163,8 @@ margin-top: 30px;
     border: 2px solid black;
     border-radius: 50%;
     position: relative;
-    margin-top: 20px;
-    right: -150px;
+    margin-top: 10px;
+    right: -180px;
   }
   
   .icone.lupa:after {
@@ -146,16 +182,6 @@ margin-top: 30px;
     transform-origin: -10px 15px;
     
   }
-
-#circulo {
-
-    margin-top: -13px;
-    background: white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    border: 3px solid grey;
-}
 
 #linha1 {
     width: 20px;
@@ -207,6 +233,22 @@ button {
     font-size: 100px;
 
 }
+
+#idioma{
+
+
+position:absolute;
+left: 150px;
+margin-top: 10px;
+
+}
+.idioma{
+
+    position: absolute;
+    margin-top: -08px;
+    left: -5px;
+    }
+    
 
 #btnAcessibilidadeletra {
 
