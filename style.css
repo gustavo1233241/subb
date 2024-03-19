@@ -234,11 +234,23 @@ button {
 
 }
 
+
+.acessCel{
+    background-color: #b32323;
+    height: 55px;
+    width: 55px;
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+   
+
+
+}
+
 #idioma{
 
 
 position:absolute;
-left: 150px;
+left: 140px;
 margin-top: 10px;
 
 }
@@ -249,6 +261,21 @@ margin-top: 10px;
     left: -5px;
     }
     
+
+    #canais{
+
+        position:absolute;
+        left: 40px;
+        margin-top: 10px;
+        
+        }
+        .canais{
+
+            position: absolute;
+            margin-top: -06px;
+            left: -5px;
+            } 
+
 
 #btnAcessibilidadeletra {
 
