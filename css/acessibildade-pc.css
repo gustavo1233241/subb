@@ -1,91 +1,3 @@
-@font-face {
-    font-family: 'Zen Kaku Gothic Antique';
-    font-style: normal;
-
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/zenkakugothicantique/v15/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TauMItwdlP0eiF9NCCYY662XlrPoX7MjA.2.woff2) format('woff2');
-
-}
-
-.cabecalho {
-    position: relative;
-}
-
-
-
-#retangulo {
-    top: 0%;
-    position: absolute;
-}
-
-
-#petrobras {
-    position: absolute;
-    padding: 35px;
-    margin-left: 70px;
-    left: 1px;
-    top: 1px;
-
-}
-
-#tres_linhas {
-    position: relative;
-    top: 40px;
-    height: 50px;
-    width: 50px;
-}
-
-h2 {
-    font-family: 'Zen Kaku Gothic Antique';
-    top: 1px;
-    font-size: 80px;
-    text-align: justify;
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    padding: 40px;
-    font-weight: 400;
-    color: aliceblue;
-    border: none;
-    text-justify: distribute;
-    position: relative;
-
-}
-
-#x {
-    height: 35px;
-    margin-left: 90px;
-    position: fixed;
-    top: 50px;
-}
-
-#bolaPetro {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    width: 30.5%;
-}
-
-
-
-body {
-    font-family: 'Zen Kaku Gothic Antique';
-    margin: 0;
-    padding: 0;
-    font-weight: 1000px;
-    background-image: url('imagem/FUNDO\ PAGINA\ INICIAL.png');
-    background-repeat: no-repeat;
-    background-size: 2000px 950px;
-}
-
-
-.main-content {
-    display: flex;
-    justify-content: center;
-    margin-top: 258px;
-
-}
-
 .acessibilidade {
 
     justify-content: center;
@@ -96,132 +8,10 @@ body {
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
-    border: 10px solid #fff;
+    border: 12px solid #fff;
     background-color: aliceblue;
     border-radius: 20px;
 
-}
-
-.acessibilidade-cel {
-    display: none;
-  
- 
-
-}
-#ret {
-    display: flex;
-    justify-content: center;
-    background: #faf8f8;
-    width: 500px;
-    height: 70px;
-}
-
-
-#circulo {
-
-    position: absolute;
-    right: 205px;
-    margin-top: -13px;
-    background: white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    border: 3px solid grey;
-   
-}
-.pessoa{
-
-width: 42px;
-height: 35px;
-position: absolute;
-right: 130px;
-margin-top: 10px;
-
-    
-}
-
-
-.aces{
-
-    position: absolute;
-    right: 100px;
-    margin-top: 42px;
-    
-    }
-
-
-
-.busq{
-
-
-margin-top: 30px;
-
-}
-.icone.lupa {
-    width: 20px;
-    height: 20px;
-    border: 2px solid black;
-    border-radius: 50%;
-    position: relative;
-    margin-top: 10px;
-    right: -180px;
-  }
-  
-  .icone.lupa:after {
-    position: absolute;
-    width: 15px;
-    height: 2px;
-    background-color: black;
-  
-    display: block;
-    content: "";
-    top: 30%;
-    left: 50%;
-    
-    transform: rotate(45deg);
-    transform-origin: -10px 15px;
-    
-  }
-
-#linha1 {
-    width: 20px;
-    border: 1px solid #000;
-    margin-top: 16px;
-    position: relative;
-    right: -0.9em;
-}
-
-#linha2 {
-    margin-top: 6px;
-    width: 20px;
-    border: 1px solid #000;
-    position: relative;
-    right: -0.9em;
-}
-
-#linha3 {
-    width: 20px;
-    border: 1px solid #000;
-    position: relative;
-    right: -0.9em;
-    margin-top: 6px;
-}
-
-#detf {
-
-    width: 100%;
-    height: 300px;
-    image-resolution: initial;
-}
-
-button {
-    all: unset;
-    cursor: pointer;
-    outline: revert;
-}
-
-.form {
-    cursor: pointer;
 }
 
 .corpo {
@@ -234,77 +24,30 @@ button {
 
 }
 
-
-.acessCel{
-    background-color: #b32323;
-    height: 55px;
-    width: 55px;
-    -webkit-transition: width 1s ease-in-out;
-    transition: width 1s ease-in-out;
-   
-
-
-}
-
-#idioma{
-
-
-position:absolute;
-left: 140px;
-margin-top: 10px;
-
-}
-.idioma{
-
-    position: absolute;
-    margin-top: -08px;
-    left: -5px;
-    }
-    
-
-    #canais{
-
-        position:absolute;
-        left: 40px;
-        margin-top: 10px;
-        
-        }
-        .canais{
-
-            position: absolute;
-            margin-top: -06px;
-            left: -5px;
-            } 
-
-
 #btnAcessibilidadeletra {
 
     right: 280px;
 
 }
 
-header {
-
-    height: 500px;
-}
-
-
 #troca-titulo {
 
     right: 400px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
-    width: 80px;
+    width: 90px;
     font-size: 22px;
+    height: 50px;
 }
 
 #troca-titulo1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
-    right: 480px;
+    right: 500px;
     align-items: right;
-    font-size: 22px;
-    width: 80px;
+    font-size: 18px;
+    width: 90px;
+    height: 50px;
 }
 
 input[type=text] {
@@ -320,7 +63,7 @@ input[type=text]:focus {
 
 #pesquisa {
 
-    background-image: url(imagem/ACESSIBILADEpesquisa.png);
+    background-image: url(../imagem/ACESSIBILADEpesquisa.png);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: right;
@@ -334,15 +77,6 @@ input[type=text]:focus {
     right: 220px;
 }
 
-
-
-#titulo-celular {
-    margin-top: 0px;
-    display: none;
-
-}
-
-
 @media screen and (max-width:1640px) {
 
     body {
@@ -353,7 +87,7 @@ input[type=text]:focus {
 }
 
 #vector {
-    height: 40%px;
+    height: 40%;
     width: 100%;
 
 
@@ -370,18 +104,18 @@ footer {
 
 
 
-    #verde2 {
-
+    #vector {
+        height:600px;
         width: 100%;
-        height: 2600px;
-
-
-    }
-
+        margin-top:-80px;
+    
+    } 
+       
+   
     .acessibilidade {
 
         width: 40px;
-        height: 30px;
+        height: 20px;
 
     }
 
@@ -404,28 +138,30 @@ footer {
     }
 
     #btnAcessibilidadecontraste {
-        width: 30px;
+        width: 25px;
         right: 150px;
+        height: 20px;
     }
 
     #btnAcessibilidadeletra {
-
+        height: 20px;
         width: 60px;
         right: 210px;
     }
 
     #troca-titulo {
 
-
+        height: 42px;
         right: 300px;
-        width: 50px;
-        font-size: 20px;
+        width: 80px;
+        font-size: 16px;
     }
 
     #troca-titulo1 {
-        right: 380px;
-        font-size: 18px;
-        width: 50px;
+        height: 42px;
+        right: 390px;
+        font-size: 16px;
+        width: 80px;
     }
 
     body {
@@ -449,9 +185,87 @@ footer {
     }
 }
 
+@media screen and (max-width:1143px) {
 
 
-@media screen and (max-width:1080px) {
+
+    #vector {
+        height:600px;
+        width: 100%;
+        margin-top:-120px;
+    
+    } 
+       
+   
+    .acessibilidade {
+
+        width: 40px;
+        height: 20px;
+
+    }
+
+
+
+    #tres_linhas {
+        width: 60px;
+    }
+
+
+
+    #retangulo {
+        width: 600px;
+
+    }
+
+    #petrobras {
+        width: 395px;
+
+
+    }
+
+    #btnAcessibilidadecontraste {
+        width: 25px;
+        right: 150px;
+        height: 20px;
+    }
+
+    #btnAcessibilidadeletra {
+        height: 20px;
+        width: 60px;
+        right: 210px;
+    }
+
+    #troca-titulo {
+
+        height: 42px;
+        right: 300px;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    #troca-titulo1 {
+        height: 42px;
+        right: 390px;
+        font-size: 16px;
+        width: 80px;
+    }
+    body {
+
+        background-size: contain;
+
+    }
+
+  
+    .main-content {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin: none;
+    }
+}
+
+@media screen and (max-width:1089px) {
 
 
     #rolin {
@@ -462,7 +276,7 @@ footer {
     }
 
     #vector {
-        margin-top: -100px;
+        margin-top: -120px;
         height: 420px;
     }
 }
@@ -505,28 +319,29 @@ footer {
     }
 
     #btnAcessibilidadecontraste {
-        width: 30px;
+        width: 25px;
         right: 150px;
     }
 
     #btnAcessibilidadeletra {
 
-        width: 60px;
+        width: 50px;
         right: 210px;
     }
 
     #troca-titulo {
 
-
+        height: 45px;
         right: 300px;
-        width: 45px;
+        width: 80px;
         font-size: 18px;
     }
 
     #troca-titulo1 {
-        right: 380px;
-        font-size: 16px;
-        width: 50px;
+        right: 400px;
+        font-size: 13px;
+        width: 80px;
+        height: 45px;
     }
 
     .letra {
@@ -545,7 +360,7 @@ footer {
 }
 
 
-@media screen and (max-width:910px) {
+@media screen and (max-width:986px) {
 
     #rolin {
 
@@ -585,7 +400,7 @@ footer {
     }
 
     #btnAcessibilidadecontraste {
-        width: 30px;
+        width: 25px;
         right: 150px;
     }
 
@@ -599,14 +414,14 @@ footer {
 
 
         right: 300px;
-        width: 45px;
-        font-size: 18px;
+        width: 70px;
+        font-size: 12px;
     }
 
     #troca-titulo1 {
         right: 380px;
-        font-size: 16px;
-        width: 50px;
+        font-size: 12px;
+        width: 70px;
     }
 
     .letra {
@@ -628,7 +443,7 @@ footer {
 
 
 
-@media screen and (max-width:888px) {
+@media screen and (max-width:929px) {
 
     .acessibilidade {
 
@@ -673,14 +488,14 @@ footer {
 
 
         right: 300px;
-        width: 45px;
+        width: 80px;
         font-size: 18px;
     }
 
     #troca-titulo1 {
         right: 380px;
         font-size: 16px;
-        width: 50px;
+        width: 80px;
     }
 
     #rolin {
@@ -703,14 +518,14 @@ footer {
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:857px) {
 
 
     #rolin {
 
         display: flex;
         justify-content: center;
-        margin-top: -180px;
+        margin-top: -160px;
         height: 110px;
 
 
@@ -726,7 +541,7 @@ footer {
     #verde2 {
 
 
-        margin-top: 40px;
+        margin-top: 90px;
 
     }
 
@@ -776,20 +591,22 @@ footer {
 
 
         right: 270px;
-        width: 40px;
+        height: 40px;
+        width: 80px;
         font-size: 16px;
     }
 
     #troca-titulo1 {
-        right: 340px;
+        height: 40px;
+        right: 360px;
         font-size: 14px;
-        width: 40px;
+        width: 80px;
     }
 }
 
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:771px) {
 
     header {
 
@@ -802,7 +619,7 @@ footer {
     #rolin {
 
 
-        margin-top: -100px;
+        margin-top: -140px;
 
     }
 
@@ -835,33 +652,35 @@ footer {
     #btnAcessibilidadecontraste {
         width: 20px;
         height: 20px;
-        right: 150px;
+        right: 120px;
     }
 
     #btnAcessibilidadeletra {
-
+        right: 170px;
         width: 40px;
-        right: 210px;
+
     }
 
     #troca-titulo {
 
 
-        right: 270px;
-        width: 40px;
+        right: 240px;
+        height: 40px;
+        width: 80px;
         font-size: 16px;
     }
 
     #troca-titulo1 {
-        right: 340px;
+        right: 330px;
         font-size: 14px;
-        width: 40px;
+        height: 40px;
+        width: 80px;
     }
 
 
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:715px) {
 
     #tres_linhas {
         height: 10px;
@@ -879,43 +698,111 @@ footer {
         width: 170px;
     }
 
-    .acessibilidade {
 
-        height: 10px;
-        width: 1px;
-    }
 
     #btnAcessibilidadecontraste {
         width: 20px;
-        height: 20px;
+        height: 15px;
         right: 120px;
     }
 
     #btnAcessibilidadeletra {
-        height: 20px;
+        height: 15px;
         width: 35px;
         right: 170px;
     }
 
     #troca-titulo {
 
-        height: 20px;
+        height: 40px;
+        width: 70px;
         right: 240px;
-        width: 30px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     #troca-titulo1 {
-        right: 300px;
-        font-size: 12px;
-        width: 35px;
-        height: 20px;
+        right: 315px;
+        font-size: 10px;
+        height: 40px;
+        width: 70px;
     }
 
     #rolin {
 
 
-        margin-top: -200px;
+        margin-top: -180px;
+
+    }
+
+
+
+    #verde2 {
+
+
+        margin-top: 54px;
+
+    }
+
+}
+
+@media screen and (max-width:629px) {
+    
+    #pesquisa{
+
+        height: 15px;
+
+    }
+    #tres_linhas {
+        height: 10px;
+        height: 30px;
+        top: 20px;
+    }
+
+    #retangulo {
+        height: 60px;
+        width: 222px;
+    }
+
+    #petrobras {
+        top: -10px;
+        left: -70px;
+        width: 150px;
+    }
+
+
+
+    #btnAcessibilidadecontraste {
+        width: 20px;
+        height: 15px;
+        right: 120px;
+    }
+
+    #btnAcessibilidadeletra {
+        height: 15px;
+        width: 35px;
+        right: 170px;
+    }
+
+    #troca-titulo {
+
+        height: 40px;
+        width: 70px;
+        right: 240px;
+        font-size: 10px;
+    }
+
+    #troca-titulo1 {
+        right: 315px;
+        font-size: 10px;
+        height: 40px;
+        width: 70px;
+    }
+
+    #rolin {
+
+        width: 30px;
+        height: 90px;
+        margin-top: -180px;
 
     }
 
@@ -928,89 +815,4 @@ footer {
 
     }
 
-}
-
-@media screen and (max-width:500px) {
-
-    .acessibilidade-cel {
-
-display: flex;
-justify-content: center;
-
-    }
-
-    #tres_linhas {
-        display: none;
-    }
-
-    #retangulo {
-        display: none;
-
-    }
-
-    #petrobras {
-        display: none;
-
-    }
-
-    body {
-
-        background-size: contain;
-
-    }
-
-
-    .acessibilidade {
-        display: none;
-
-    }
-
-    main {
-
-        height: 300px;
-
-    }
-
-
-
-
-
-
-    #cabecalho-celular {
-
-        color: white;
-        height: 30px;
-        background-color: #c7bfbf;
-    }
-
-
-    #titulo-celular {
-
-
-        display: flex;
-    }
-
-
-    #rolin {
-
-        display: none;
-
-
-    }
-
-
-    #titulo {
-
-
-        font-size: 30px;
-    }
-
-    #verde2 {
-
-        margin-top: -85px;
-    }
-
-    .parab {
-        display: none;
-    }
 }
