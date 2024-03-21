@@ -8,15 +8,16 @@
     display: flex;
     justify-content: center;
     background: #faf8f8;
-    width: 500px;
+    width: 550px;
     height: 70px;
+    position: fixed;
 }
 
 
 #circulo {
 
     position: absolute;
-    right: 205px;
+    right: 245px;
     margin-top: -13px;
     background: white;
     border-radius: 50%;
@@ -62,7 +63,7 @@
     border-radius: 50%;
     position: relative;
     margin-top: 10px;
-    right: -180px;
+    right: -220px;
 }
 
 .icone.lupa:after {
@@ -107,7 +108,7 @@
 
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:551px) {
 
     .acessibilidade-cel {
 
@@ -228,7 +229,180 @@
 
     #verde2 {
 
-        margin-top: -85px;
+        margin-top: -35px;
+    }
+
+    .parab {
+        display: none;
+    }
+}
+
+@media screen and (max-width:521px) {
+
+
+    #circulo {
+
+        position: absolute;
+        right: 245px;
+        margin-top: -13px;
+        background: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 3px solid grey;
+
+    }
+
+    .aces {
+
+        position: absolute;
+        right: 120px;
+        margin-top: 42px;
+
+    }
+
+    .pessoa {
+
+        width: 42px;
+        height: 35px;
+        position: absolute;
+        right: 150px;
+        margin-top: 10px;
+
+
+    }
+
+
+
+    .icone.lupa {
+        width: 20px;
+        height: 20px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 10px;
+        right: -200px;
+    }
+
+
+    .acessibilidade-cel {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #tres_linhas {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+
+    }
+
+    #petrobras {
+        display: none;
+
+    }
+
+    body {
+
+        background-size: contain;
+
+    }
+
+
+    .acessibilidade {
+        display: none;
+
+    }
+
+    main {
+
+        height: 300px;
+
+    }
+
+
+    .acessCel {
+        background-color: #b32323;
+        height: 55px;
+        width: 55px;
+        -webkit-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
+
+
+
+    }
+
+    #idioma {
+
+
+        position: absolute;
+        left: 160px;
+        margin-top: 10px;
+
+    }
+
+    .idioma {
+
+        position: absolute;
+        margin-top: -08px;
+        left: -5px;
+    }
+
+
+    #canais {
+
+        position: absolute;
+        left: 60px;
+        margin-top: 10px;
+
+    }
+
+    .canais {
+
+        position: absolute;
+        margin-top: -06px;
+        left: -5px;
+    }
+
+
+
+
+    #cabecalho-celular {
+
+        color: white;
+        height: 30px;
+        background-color: #c7bfbf;
+    }
+
+
+    #titulo-celular {
+
+
+        display: flex;
+    }
+
+
+    #rolin {
+
+        display: none;
+
+
+    }
+
+
+    #titulo {
+
+
+        font-size: 30px;
+    }
+
+    #verde2 {
+
+        margin-top: -35px;
     }
 
     .parab {

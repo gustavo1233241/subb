@@ -84,12 +84,75 @@ input[type=text]:focus {
 
     }
 
+
+
+    #verde2 {
+         margin-top: 166px;
+        height: 500px;
+        width: 100%;
+       
+
+    }
+
+    footer {
+
+        height: 100px;
+
+    }
 }
 
-#vector {
-    height: 40%;
-    width: 100%;
+@media screen and (max-width:1535px) {
+    body {
+        background-size: contain;
 
+    }
+
+#verde2 {
+    margin-top: 88px;
+    height: 550px;
+    width: 100%;
+   
+
+}
+
+footer {
+
+    height: 100px;
+
+}
+}
+@media screen and (max-width:1423px) {
+    body {
+        background-size: contain;
+
+    }
+
+#verde2 {
+    margin-top: 20px;
+    height: 550px;
+    width: 100%;
+   
+
+}
+
+footer {
+
+    height: 100px;
+
+}
+}
+
+
+@media screen and (max-width:1337px) {
+    body {
+        background-size: contain;
+
+    }
+
+#vector {
+    height: 550px;
+    width: 100%;
+    margin-top: -20px;
 
 }
 
@@ -100,18 +163,21 @@ footer {
 }
 
 
+}
+
+
 @media screen and (max-width:1300px) {
 
 
 
     #vector {
-        height:600px;
+        height: 600px;
         width: 100%;
-        margin-top:-80px;
-    
-    } 
-       
-   
+        margin-top: -80px;
+
+    }
+
+
     .acessibilidade {
 
         width: 40px;
@@ -189,14 +255,14 @@ footer {
 
 
 
-    #vector {
-        height:600px;
+    #verde2 {
+        height: 600px;
         width: 100%;
-        margin-top:-120px;
-    
-    } 
-       
-   
+        margin-top: 80px;
+
+    }
+
+
     .acessibilidade {
 
         width: 40px;
@@ -249,13 +315,14 @@ footer {
         font-size: 16px;
         width: 80px;
     }
+
     body {
 
         background-size: contain;
 
     }
 
-  
+
     .main-content {
 
         display: flex;
@@ -276,7 +343,7 @@ footer {
     }
 
     #vector {
-        margin-top: -120px;
+        margin-top: -70px;
         height: 420px;
     }
 }
@@ -603,6 +670,92 @@ footer {
         width: 80px;
     }
 }
+@media screen and (max-width:817px) {
+
+
+    #rolin {
+
+        display: flex;
+        justify-content: center;
+        margin-top: -160px;
+        height: 110px;
+
+
+    }
+
+    h2 {
+
+
+        font-size: 40px;
+
+    }
+
+    #verde2 {
+
+
+        margin-top: 20px;
+
+    }
+
+
+    .acessibilidade {
+
+        width: 5px;
+        height: 20px;
+
+    }
+
+
+    #tres_linhas {
+        width: 30px;
+        margin-top: -30px;
+        height: 30px;
+    }
+
+
+
+    #retangulo {
+        width: 360px;
+
+    }
+
+    #petrobras {
+        width: 210px;
+        left: -50px;
+        margin-top: -12px;
+
+    }
+
+    #btnAcessibilidadecontraste {
+        width: 27px;
+        height: 24px;
+        right: 130px;
+    }
+
+    #btnAcessibilidadeletra {
+
+        width: 50px;
+        height: 18px;
+        right: 190px;
+    }
+
+    #troca-titulo {
+
+
+        right: 270px;
+        height: 40px;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    #troca-titulo1 {
+        height: 40px;
+        right: 360px;
+        font-size: 14px;
+        width: 80px;
+    }
+}
+
 
 
 
@@ -628,7 +781,7 @@ footer {
     #verde2 {
 
 
-        margin-top: 100px;
+        margin-top: 60px;
 
     }
 
@@ -744,14 +897,78 @@ footer {
     }
 
 }
+@media screen and (max-width:695px) {
 
+    #tres_linhas {
+        height: 10px;
+        height: 30px;
+        top: 30px;
+    }
+
+    #retangulo {
+        height: 80px;
+        width: 272px;
+    }
+
+    #petrobras {
+        top: -5px;
+        width: 170px;
+    }
+
+
+
+    #btnAcessibilidadecontraste {
+        width: 20px;
+        height: 15px;
+        right: 120px;
+    }
+
+    #btnAcessibilidadeletra {
+        height: 15px;
+        width: 35px;
+        right: 170px;
+    }
+
+    #troca-titulo {
+
+        height: 40px;
+        width: 70px;
+        right: 240px;
+        font-size: 10px;
+    }
+
+    #troca-titulo1 {
+        right: 315px;
+        font-size: 10px;
+        height: 40px;
+        width: 70px;
+    }
+
+    #rolin {
+
+
+        margin-top: -180px;
+
+    }
+
+
+
+    #vector {
+
+
+        margin-top: -124px;
+
+    }
+
+}
 @media screen and (max-width:629px) {
-    
-    #pesquisa{
+
+    #pesquisa {
 
         height: 15px;
 
     }
+
     #tres_linhas {
         height: 10px;
         height: 30px;
@@ -796,13 +1013,14 @@ footer {
         font-size: 10px;
         height: 40px;
         width: 70px;
+
     }
 
     #rolin {
 
         width: 30px;
         height: 90px;
-        margin-top: -180px;
+        margin-top: -220px;
 
     }
 
@@ -810,9 +1028,91 @@ footer {
 
     #verde2 {
 
-
+        image-resolution:inherit;
         margin-top: 10px;
 
     }
 
+
+
+
+    
+}
+@media screen and (max-width:590px) {
+
+   
+
+    #pesquisa {
+
+        height: 15px;
+
+    }
+
+    #tres_linhas {
+        height: 10px;
+        height: 30px;
+        top: 20px;
+    }
+
+    #retangulo {
+        height: 60px;
+        width: 222px;
+    }
+
+    #petrobras {
+        top: -10px;
+        left: -70px;
+        width: 150px;
+    }
+
+
+
+    #btnAcessibilidadecontraste {
+        width: 20px;
+        height: 15px;
+        right: 105px;
+    }
+
+    #btnAcessibilidadeletra {
+        height: 10px;
+        width: 30px;
+        right: 160px;
+    }
+
+    #troca-titulo {
+        font-size: 8px;
+        height: 30px;
+        width: 55px;
+        right: 220px;
+        
+    }
+
+    #troca-titulo1 {
+        right: 280px;
+        font-size: 8px;
+        height: 30px;
+        width: 58px;
+
+    }
+
+    #rolin {
+
+        width: 30px;
+        height: 90px;
+        margin-top: -220px;
+
+    }
+
+
+
+    #verde2 {
+
+        image-resolution:inherit;
+        margin-top: 10px;
+
+    }
+
+
+
+ 
 }
