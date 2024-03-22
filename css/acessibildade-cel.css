@@ -409,3 +409,1083 @@
         display: none;
     }
 }
+
+@media screen and (max-width:487px) {
+
+
+    #circulo {
+
+        position: absolute;
+        right: 245px;
+        margin-top: -13px;
+        background: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 3px solid grey;
+
+    }
+
+    .aces {
+
+        position: absolute;
+        right: 130px;
+        margin-top: 42px;
+
+    }
+
+    .pessoa {
+
+        width: 42px;
+        height: 35px;
+        position: absolute;
+        right: 160px;
+        margin-top: 10px;
+
+
+    }
+
+
+
+    .icone.lupa {
+        width: 20px;
+        height: 20px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 10px;
+        right: -180px;
+    }
+
+
+    .acessibilidade-cel {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #tres_linhas {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+
+    }
+
+    #petrobras {
+        display: none;
+
+    }
+
+    body {
+
+        background-size: contain;
+
+    }
+
+
+    .acessibilidade {
+        display: none;
+
+    }
+
+    main {
+
+        height: 300px;
+
+    }
+
+
+    .acessCel {
+        background-color: #b32323;
+        height: 55px;
+        width: 55px;
+        -webkit-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
+
+
+
+    }
+
+    #idioma {
+
+
+        position: absolute;
+        left: 160px;
+        margin-top: 10px;
+
+    }
+
+    .idioma {
+
+        position: absolute;
+        margin-top: -08px;
+        left: -5px;
+    }
+
+
+    #canais {
+
+        position: absolute;
+        left: 80px;
+        margin-top: 10px;
+
+    }
+
+    .canais {
+
+        position: absolute;
+        margin-top: -06px;
+        left: -5px;
+    }
+
+
+
+
+    #cabecalho-celular {
+
+        color: white;
+        height: 30px;
+        background-color: #c7bfbf;
+    }
+
+
+    #titulo-celular {
+
+
+        display: flex;
+    }
+
+
+    #rolin {
+
+        display: none;
+
+
+    }
+
+
+    #titulo {
+
+
+        font-size: 30px;
+    }
+
+    #vector {
+
+        margin-top: -180px;
+    }
+
+    .parab {
+        display: none;
+    }
+
+    .busq {
+
+
+        margin-top: 30px;
+        position: absolute;
+        left: -8px;
+    }
+
+}
+
+
+@media screen and (max-width:417px) {
+
+    .icone.lupa:after {
+        position: absolute;
+        width: 15px;
+        height: 2px;
+        background-color: black;
+
+        display: block;
+        content: "";
+        top: 10%;
+        left: 50%;
+
+        transform: rotate(45deg);
+        transform-origin: -10px 15px;
+
+    }
+
+    #circulo {
+
+        position: absolute;
+        right: 245px;
+        margin-top: -13px;
+        background: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 3px solid grey;
+
+    }
+
+    .aces {
+
+        position: absolute;
+        right: 150px;
+        margin-top: 42px;
+
+    }
+
+    .pessoa {
+
+        width: 42px;
+        height: 35px;
+        position: absolute;
+        right: 180px;
+        margin-top: 10px;
+
+
+    }
+
+
+
+    .icone.lupa {
+        width: 15px;
+        height: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 10px;
+        right: -160px;
+    }
+
+
+    .acessibilidade-cel {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #tres_linhas {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+
+    }
+
+    #petrobras {
+        display: none;
+
+    }
+
+    body {
+
+        background-size: contain;
+
+    }
+
+
+    .acessibilidade {
+        display: none;
+
+    }
+
+    main {
+
+        height: 300px;
+
+    }
+
+
+    .acessCel {
+        background-color: #b32323;
+        height: 55px;
+        width: 55px;
+        -webkit-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
+
+
+
+    }
+
+    #idioma {
+
+
+        position: absolute;
+        left: 180px;
+        margin-top: 10px;
+
+    }
+
+    .idioma {
+
+        position: absolute;
+        margin-top: -08px;
+        left: -5px;
+    }
+
+
+    #canais {
+
+        position: absolute;
+        left: 110px;
+        margin-top: 10px;
+
+    }
+
+    .canais {
+
+        position: absolute;
+        margin-top: -06px;
+        left: -5px;
+    }
+
+
+
+
+    #cabecalho-celular {
+
+        color: white;
+        height: 30px;
+        background-color: #c7bfbf;
+    }
+
+
+    #titulo-celular {
+
+
+        display: flex;
+    }
+
+
+    #rolin {
+
+        display: none;
+
+
+    }
+
+
+    #titulo {
+
+
+        font-size: 30px;
+    }
+
+    #vector {
+
+        margin-top: -190px;
+    }
+
+    .parab {
+        display: none;
+    }
+
+    .busq {
+
+
+        margin-top: 30px;
+        position: absolute;
+        left: -8px;
+    }
+
+}
+
+
+@media screen and (max-width:393px) {
+
+
+    #circulo {
+
+        position: absolute;
+        right: 245px;
+        margin-top: -13px;
+        background: white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 3px solid grey;
+
+    }
+
+    .aces {
+
+        position: absolute;
+        right: 150px;
+        margin-top: 36px;
+
+    }
+
+    .pessoa {
+
+        width: 40px;
+        height: 35px;
+        position: absolute;
+        right: 180px;
+        margin-top: 6px;
+
+
+    }
+
+
+
+    .icone.lupa {
+        width: 15px;
+        height: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 10px;
+        right: -150px;
+    }
+
+    .icone.lupa:after {
+        position: absolute;
+        width: 15px;
+        height: 2px;
+        background-color: black;
+
+        display: block;
+        content: "";
+        top: 10%;
+        left: 50%;
+
+        transform: rotate(45deg);
+        transform-origin: -10px 15px;
+
+    }
+
+    .acessibilidade-cel {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #tres_linhas {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+
+    }
+
+    #petrobras {
+        display: none;
+
+    }
+
+    body {
+
+        background-size: contain;
+
+    }
+
+
+    .acessibilidade {
+        display: none;
+
+    }
+
+    main {
+
+        height: 300px;
+
+    }
+
+    .acessCel {
+        background-color: #b32323;
+        height: 55px;
+        width: 55px;
+        transition: width 1s ease-in-out;
+
+
+
+    }
+
+
+
+    .idiomaimg {
+        width: 30px;
+        height: 30px;
+
+
+
+    }
+
+    .canaisimg {
+        width: 30px;
+        height: 30px;
+
+
+    }
+
+    #idioma {
+
+
+        position: absolute;
+        left: 200px;
+        margin-top: 10px;
+
+    }
+
+    .idioma {
+
+        position: absolute;
+        margin-top: -08px;
+        left: -5px;
+    }
+
+
+    #canais {
+
+        position: absolute;
+        left: 130px;
+        margin-top: 10px;
+
+    }
+
+    .canais {
+
+        position: absolute;
+        margin-top: -9px;
+        left: -5px;
+    }
+
+
+
+
+    #cabecalho-celular {
+
+        color: white;
+        height: 30px;
+        background-color: #c7bfbf;
+    }
+
+
+    #titulo-celular {
+
+
+        display: flex;
+    }
+
+
+    #rolin {
+
+        display: none;
+
+
+    }
+
+
+    #titulo {
+
+
+        font-size: 30px;
+    }
+
+    #vector {
+
+        margin-top: -210px;
+    }
+
+    .parab {
+        display: none;
+    }
+
+    .busq {
+
+
+        position: absolute;
+        left: -6px;
+        margin-top: 24px;
+    }
+
+}
+
+@media screen and (max-width:365px) {
+    
+    
+    #titulo {
+        height: 20px;
+        font-size: 3px;
+        top: -35px;
+
+    }
+
+    #linha1 {
+        width: 20px;
+        border: 1px solid #000;
+        margin-top: 16px;
+        position: relative;
+        right: -0.8em;
+    }
+
+    #linha2 {
+        margin-top: 6px;
+        width: 20px;
+        border: 1px solid #000;
+        position: relative;
+        right: -0.8em;
+    }
+
+    #linha3 {
+        width: 20px;
+        border: 1px solid #000;
+        position: relative;
+        right: -0.8em;
+        margin-top: 6px;
+    }
+
+
+
+    #circulo {
+
+        position: absolute;
+        right: 245px;
+        margin-top: -13px;
+        background: white;
+        border-radius: 50%;
+        width: 47px;
+        height: 47px;
+        border: 3px solid grey;
+
+    }
+
+    .aces {
+
+        position: absolute;
+        right: 160px;
+        margin-top: 36px;
+
+    }
+
+    .pessoa {
+
+        width: 40px;
+        height: 35px;
+        position: absolute;
+        right: 190px;
+        margin-top: 6px;
+
+
+    }
+
+
+
+    .icone.lupa {
+        width: 15px;
+        height: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 10px;
+        right: -135px;
+    }
+
+    .icone.lupa:after {
+        position: absolute;
+        width: 15px;
+        height: 2px;
+        background-color: black;
+
+        display: block;
+        content: "";
+        top: 10%;
+        left: 50%;
+
+        transform: rotate(45deg);
+        transform-origin: -10px 15px;
+
+    }
+
+    .acessibilidade-cel {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #tres_linhas {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+
+    }
+
+    #petrobras {
+        display: none;
+
+    }
+
+    body {
+
+        background-size: contain;
+
+    }
+
+
+    .acessibilidade {
+        display: none;
+
+    }
+
+    main {
+
+        height: 300px;
+
+    }
+
+    .acessCel {
+        background-color: #b32323;
+        height: 55px;
+        width: 55px;
+        transition: width 1s ease-in-out;
+
+
+
+    }
+
+
+
+    .idiomaimg {
+        width: 30px;
+        height: 30px;
+
+
+
+    }
+
+    .canaisimg {
+        width: 30px;
+        height: 30px;
+
+
+    }
+
+    #idioma {
+
+
+        position: absolute;
+        left: 210px;
+        margin-top: 10px;
+
+    }
+
+    .idioma {
+
+        position: absolute;
+        margin-top: -08px;
+        left: -5px;
+    }
+
+
+    #canais {
+
+        position: absolute;
+        left: 150px;
+        margin-top: 10px;
+
+    }
+
+    .canais {
+
+        position: absolute;
+        margin-top: -9px;
+        left: -5px;
+    }
+
+
+
+
+    #cabecalho-celular {
+
+        color: white;
+        height: 30px;
+        background-color: #c7bfbf;
+    }
+
+
+    #titulo-celular {
+
+
+        display: flex;
+    }
+
+
+    #rolin {
+
+        display: none;
+
+
+    }
+
+
+    #titulo {
+
+
+        font-size: 30px;
+    }
+
+    #vector {
+
+        margin-top: -240px;
+    }
+
+    .parab {
+        display: none;
+    }
+
+    .busq {
+
+
+        position: absolute;
+        left: -6px;
+        margin-top: 24px;
+    }
+
+}
+
+@media screen and (max-width:338px) {
+    
+    
+    #titulo {
+       
+        font-size: 25px;
+        top: -35px;
+
+    }
+
+    #linha1 {
+        width: 20px;
+        border: 1px solid #000;
+        margin-top: 16px;
+        position: relative;
+        right: -0.8em;
+    }
+
+    #linha2 {
+        margin-top: 6px;
+        width: 20px;
+        border: 1px solid #000;
+        position: relative;
+        right: -0.8em;
+    }
+
+    #linha3 {
+        width: 20px;
+        border: 1px solid #000;
+        position: relative;
+        right: -0.8em;
+        margin-top: 6px;
+    }
+
+
+
+    #circulo {
+
+        position: absolute;
+        right: 245px;
+        margin-top: -13px;
+        background: white;
+        border-radius: 50%;
+        width: 47px;
+        height: 47px;
+        border: 3px solid grey;
+
+    }
+
+    .aces {
+
+        position: absolute;
+        right: 170px;
+        margin-top: 36px;
+        font-size: 14px;
+
+    }
+
+    .pessoa {
+
+        width: 40px;
+        height: 35px;
+        position: absolute;
+        right: 190px;
+        margin-top: 6px;
+
+
+    }
+
+
+
+    .icone.lupa {
+        width: 15px;
+        height: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-top: 10px;
+        right: -125px;
+    }
+
+    .icone.lupa:after {
+        position: absolute;
+        width: 15px;
+        height: 2px;
+        background-color: black;
+
+        display: block;
+        content: "";
+        top: 10%;
+        left: 50%;
+
+        transform: rotate(45deg);
+        transform-origin: -10px 15px;
+
+    }
+
+    .acessibilidade-cel {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #tres_linhas {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+
+    }
+
+    #petrobras {
+        display: none;
+
+    }
+
+    body {
+
+        background-size: contain;
+
+    }
+
+
+    .acessibilidade {
+        display: none;
+
+    }
+
+    main {
+
+        height: 300px;
+
+    }
+
+    .acessCel {
+        background-color: #b32323;
+        height: 55px;
+        width: 55px;
+        transition: width 1s ease-in-out;
+
+
+
+    }
+
+
+
+    .idiomaimg {
+        width: 30px;
+        height: 30px;
+
+
+
+    }
+
+    .canaisimg {
+        width: 30px;
+        height: 30px;
+
+
+    }
+
+    #idioma {
+
+
+        position: absolute;
+        left: 210px;
+        margin-top: 10px;
+
+    }
+
+    .idioma {
+        font-size: 14px;
+        position: absolute;
+        margin-top: -08px;
+        left: -5px;
+    }
+
+
+    #canais {
+
+        position: absolute;
+        left: 155px;
+        margin-top: 10px;
+
+    }
+
+    .canais {
+        font-size: 14px;
+        position: absolute;
+        margin-top: -9px;
+        left: -5px;
+    }
+
+
+
+
+    #cabecalho-celular {
+
+        color: white;
+        height: 30px;
+        background-color: #c7bfbf;
+    }
+
+
+    #titulo-celular {
+
+
+        display: flex;
+    }
+
+
+    #rolin {
+
+        display: none;
+
+
+    }
+
+
+
+    #vector {
+
+        margin-top: -245px;
+    }
+
+    .parab {
+        display: none;
+    }
+
+    .busq {
+
+
+        position: absolute;
+        left: -6px;
+        margin-top: 24px;
+        font-size: 14px;
+    }
+
+}
