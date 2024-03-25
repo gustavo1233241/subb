@@ -106,7 +106,13 @@
     margin-top: 6px;
 }
 
+.acessibilidadeCel{
 
+    position: absolute;
+    background: red;
+    transition: height .5s;
+   
+}
 
 @media screen and (max-width:551px) {
 
@@ -325,16 +331,7 @@
     }
 
 
-    .acessCel {
-        background-color: #b32323;
-        height: 55px;
-        width: 55px;
-        -webkit-transition: width 1s ease-in-out;
-        transition: width 1s ease-in-out;
 
-
-
-    }
 
     #idioma {
 
