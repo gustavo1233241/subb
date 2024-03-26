@@ -9,28 +9,50 @@
 #circulo {
 
     position: absolute;
-    left:148px;
+    left: 148px;
     margin-top: 33px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    border: 1px solid green;
+    border: 2px solid green;
 
 }
-#circulo:after{
 
-position: absolute;
-width: 1px;
-height: 24px;
-background-color: green;
+.x1 {
 
-display: block;
-content: "";
-top: 30%;
-left: 23px;
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
 
-transform: rotate(45deg);
+    display: block;
+    content: "";
+    top: 30%;
+    left: 23px;
+
+    transform: rotate(35deg);
 }
+
+.x2{
+
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
+
+    display: block;
+    content: "";
+    top: 30%;
+    left: 23px;
+
+    transform: rotate(145deg);
+}
+
+
+    
+
+
+
 
 .divs {
     width: 100px;
@@ -46,12 +68,67 @@ transform: rotate(45deg);
     border-radius: 3px 3px 3px 3px;
     position: absolute;
     left: 80px;
-    margin-top: 140px;
+    margin-top: 160px;
     width: 180px;
     height: 90px;
 }
 
+.desenhe{
+    position: absolute;
+    left: 24px;
+    margin-top: 23px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #178864;
+    background: #178864;
 
+
+}
+.desenhe2{
+
+
+    position: absolute;
+    left: 3px;
+    margin-top: 3px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+
+
+
+}
+#textcelacess{
+
+position: absolute;
+left: 130px;
+top: 90px;
+font-weight:medium;
+}
+
+#textcelcontra{
+position: absolute;
+top: 45px;
+font-size: 13px;
+left: 5px;
+}
+.letras{
+
+    color: #ECECEC;
+    position: absolute;
+    top: -16px;
+    left: 14px;
+    font-size: 20px;
+}
+.letras1{
+
+    color: #ECECEC;
+    position: absolute;
+    top: -1px;
+    left: 4px;
+    font-size: 11px;
+}
 
 .autoLinguagem {
     background-color: #ECECEC;
@@ -59,7 +136,7 @@ transform: rotate(45deg);
     border-radius: 3px 3px 3px 3px;
     position: absolute;
     left: 80px;
-    margin-top: 260px;
+    margin-top: 280px;
     width: 180px;
     height: 90px;
 }
@@ -72,7 +149,7 @@ transform: rotate(45deg);
     border-radius: 3px 3px 3px 3px;
     position: absolute;
     left: 80px;
-    margin-top: 380px;
+    margin-top: 310px;
     width: 180px;
     height: 90px;
 }
