@@ -73,27 +73,3 @@ botao.addEventListener("click", function(){
 
 
 
-var acessCel=document.querySelector("#acessibilidadeCel")
-var interruptorDeAcessCel = true
-btnAcessibilidades.addEventListener('click', () =>{
-
-if (interruptorDeAcessCel){
-
-acessCel.setAttribute('class', 'acessibilidadeCel')
-
-interruptorDeAcessCel = false;
-
-}
-else{
-
-    acessCel.removeAttribute('class', 'acessibilidadeCel')
-    
-    interruptorDeAcessCel = true;
-    
-    }
-    
-    
-
-
-
-})

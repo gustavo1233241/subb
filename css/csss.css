@@ -1,21 +1,28 @@
+
+
+
+
+
+
+
 .ad1 {
     background-color: #F8F8F8;
-    height: 600px;
-    width: 350px;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
 }
 
-
-
-#circulo {
+#circulo1 {
 
     position: absolute;
-    left: 148px;
+    left: 250px;
     margin-top: 33px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     border: 2px solid green;
-
+    
 }
 
 .x1 {
@@ -33,7 +40,7 @@
     transform: rotate(35deg);
 }
 
-.x2{
+.x2 {
 
     position: absolute;
     width: 2px;
@@ -49,7 +56,7 @@
 }
 
 
-    
+
 
 
 
@@ -57,7 +64,9 @@
 .divs {
     width: 100px;
     height: 100px;
-
+    
+    position: absolute;
+    left: 100px;
 }
 
 
@@ -65,80 +74,123 @@
 .autoContra {
     background-color: #ECECEC;
     border-style: inherit;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 10px;
     position: absolute;
-    left: 80px;
+    left: 50px;
     margin-top: 160px;
-    width: 180px;
-    height: 90px;
+    width: 250px;
+    height: 130px;
 }
 
-.desenhe{
+.desenhe {
     position: absolute;
-    left: 24px;
+    left: 35px;
     margin-top: 23px;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 2px solid #178864;
     background: #178864;
 
 
 }
-.desenhe2{
+
+.desenhe2 {
 
 
     position: absolute;
     left: 3px;
     margin-top: 3px;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border: 2px solid white;
 
 
 
 }
-#textcelacess{
+.desenhe3{
+
+    position: absolute;
+        left: 7.4px;
+        margin-top: 7.2px;
+        border-radius: 50px 0px 0px 50px;
+        width: 11px;
+        height: 20px;
+        
+        background: white;
+    
+    }
+#btn{
+
 
 position: absolute;
-left: 130px;
-top: 90px;
-font-weight:medium;
+left: 55px;
+margin-top: 30px;
+
 }
 
-#textcelcontra{
-position: absolute;
-top: 45px;
-font-size: 13px;
-left: 5px;
+#btn1{
+
+
+    position: absolute;
+    left: 55px;
+    margin-top: 30px;
+    
+    }
+
+    #btn2{
+
+
+        position: absolute;
+        left: 55px;
+        margin-top: 30px;
+        
+        }
+
+
+#textcelacess {
+
+    position: absolute;
+    left: 230px;
+    top: 90px;
+    font-weight: medium;
 }
-.letras{
+
+#textcelcontra {
+    position: absolute;
+    top: 48px;
+    font-size: 13px;
+    left: 15px;
+}
+
+.letras {
 
     color: #ECECEC;
     position: absolute;
-    top: -16px;
+    top: -30px;
     left: 14px;
-    font-size: 20px;
+    font-size: 25px;
 }
-.letras1{
+
+.letras1 {
 
     color: #ECECEC;
     position: absolute;
-    top: -1px;
+    top: -8px;
     left: 4px;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .autoLinguagem {
     background-color: #ECECEC;
     border-style: inherit;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 10px;
     position: absolute;
-    left: 80px;
-    margin-top: 280px;
-    width: 180px;
-    height: 90px;
+    left: 50px;
+    margin-top: 360px;
+    width: 250px;
+    height: 130px;
 }
 
 
@@ -146,21 +198,21 @@ left: 5px;
 .autoLetra {
     background-color: #ECECEC;
     border-style: inherit;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 10px;
     position: absolute;
-    left: 80px;
-    margin-top: 310px;
-    width: 180px;
-    height: 90px;
+    left: 50px;
+    margin-top: 560px;
+    width: 250px;
+    height: 130px;
 }
 
 
 
 #palito {
     position: relative;
-    left: 88px;
+    left: 125px;
     width: 2px;
-    height: 60px;
+    height: 80px;
     background: darkgreen;
     margin-top: 20px;
 }

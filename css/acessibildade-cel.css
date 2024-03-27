@@ -106,13 +106,7 @@
     margin-top: 6px;
 }
 
-.acessibilidadeCel{
 
-    position: absolute;
-    background: red;
-    transition: height .5s;
-   
-}
 
 @media screen and (max-width:551px) {
 
