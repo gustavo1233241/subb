@@ -1,25 +1,32 @@
-function accessibilidadeSob(id){
-    var menum = document.getElementById('acessibilidadeCel2');
-    var func=id;
-    if(func==="desc"){
-    
-        menum.style.top="0"
-    
-    }else if(func==="desc"){
-        menum.style.removeProperty('top');
-    
+var interuptor12 = true;
+function accessibilidadeSob() {
+    var menum = document.getElementById('ad1');
+    var menum1 = document.getElementById('divs');
+    var menum2 = document.getElementById('circulo1')
+    var menum3 = document.getElementById('textcelacess');
+
+
+    if (interuptor12) {
+        menum.style.height = '100vh';
+
+        menum1.style.display = 'block';
+
+        menum2.style.display = 'block';
+
+        menum3.style.display = 'block';
+
+        interuptor12 = false
+
     }
-    if(menum.style.height="100vh"){
-    
-        
-        
-        menum.style.height="0vh";
-    
-    }else {
-        menum.style.height="100vh";
-    
+    else { 
+        menum.style.height = '0vh';
+
+        menum1.style.display = 'none';
+
+        menum2.style.display = 'none';
+
+        menum3.style.display = 'none';
+
+        interuptor12=true
     }
-    
-    
-    
-    }
+}

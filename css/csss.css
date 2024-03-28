@@ -7,10 +7,15 @@
 
 .ad1 {
     background-color: #F8F8F8;
-    height: 100vh;
+    height: 0vh;
     width: 100vw;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    z-index: 4;
+    transition: height .6s ease;
+    bottom: 0;
+    
+   
+  
 }
 
 #circulo1 {
@@ -22,7 +27,7 @@
     width: 50px;
     height: 50px;
     border: 2px solid green;
-    
+    display: none;
 }
 
 .x1 {
@@ -67,6 +72,7 @@
     
     position: absolute;
     left: 100px;
+    display: none;
 }
 
 
@@ -155,6 +161,7 @@ margin-top: 30px;
     left: 230px;
     top: 90px;
     font-weight: medium;
+    display: none;
 }
 
 #textcelcontra {
@@ -256,4 +263,260 @@ label::after {
 input:checked+label:after {
     left: calc(100%);
     transform: translateX(-100%);
+}
+
+
+@media screen and (max-width:540px) {
+
+
+    .autoLinguagem {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 30px;
+        margin-top: 360px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    
+    
+    .autoLetra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 30px;
+        margin-top: 560px;
+        width: 250px;
+        height: 130px;
+    }
+    
+
+    .autoContra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 30px;
+        margin-top: 160px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    #circulo1 {
+
+        position: absolute;
+        left: 230px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
+
+        position: absolute;
+        left: 210px;
+        top: 90px;
+        font-weight: medium;
+    }
+    
+
+
+}
+@media screen and (max-width:476px) {
+
+
+    .autoLinguagem {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 20px;
+        margin-top: 360px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    
+    
+    .autoLetra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 20px;
+        margin-top: 560px;
+        width: 250px;
+        height: 130px;
+    }
+    
+
+    .autoContra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 20px;
+        margin-top: 160px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    #circulo1 {
+
+        position: absolute;
+        left: 216px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
+
+        position: absolute;
+        left: 195px;
+        top: 90px;
+        font-weight: medium;
+    }
+    
+
+
+}
+
+@media screen and (max-width:444px) {
+
+
+    .autoLinguagem {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 6px;
+        margin-top: 360px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    
+    
+    .autoLetra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 6px;
+        margin-top: 560px;
+        width: 250px;
+        height: 130px;
+    }
+    
+
+    .autoContra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 6px;
+        margin-top: 160px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    #circulo1 {
+
+        position: absolute;
+        left: 200px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
+
+        position: absolute;
+        left: 180px;
+        top: 90px;
+        font-weight: medium;
+    }
+    
+
+
+}
+
+@media screen and (max-width:444px) {
+
+
+    .autoLinguagem {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: -12px;
+        margin-top: 360px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    
+    
+    .autoLetra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: -12px;
+        margin-top: 560px;
+        width: 250px;
+        height: 130px;
+    }
+    
+
+    .autoContra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: -12px;
+        margin-top: 160px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    #circulo1 {
+
+        position: absolute;
+        left: 180px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
+
+        position: absolute;
+        left: 160px;
+        top: 90px;
+        font-weight: medium;
+    }
+    
+
+
 }
