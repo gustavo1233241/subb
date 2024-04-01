@@ -29,7 +29,17 @@
     border: 2px solid green;
     display: none;
 }
+#circulo2 {
 
+    position: absolute;
+    left: 190px;
+    margin-top: 33px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    display: none;
+}
 .x1 {
 
     position: absolute;
@@ -59,6 +69,37 @@
 
     transform: rotate(145deg);
 }
+.x3 {
+
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
+
+    display: block;
+    content: "";
+    top: 30%;
+    left: 23px;
+
+    transform: rotate(35deg);
+}
+
+.x4 {
+
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
+
+    display: block;
+    content: "";
+    top: 30%;
+    left: 23px;
+
+    transform: rotate(145deg);
+}
+
+
 
 
 
@@ -264,6 +305,97 @@ input:checked+label:after {
     left: calc(100%);
     transform: translateX(-100%);
 }
+#a21 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 3px;
+    left: 200px;
+
+}
+
+#a22 {
+    position: absolute;
+    left: 50px;
+    z-index: 2;
+    margin-top: 3px;
+   
+}
+.mundi{
+
+    position: absolute;
+    left: 130px;
+    margin-top:-40px;
+    height: 50px;
+    width:50px;
+    display: none;
+    }
+
+    .linguis {
+        position: absolute;
+        left: 70px;
+        top: 280px;
+        display: none;
+    }
+    .label::after {
+        content: "";
+        width: 150px;
+        height: 23px;
+        background-color: #ffffff;
+        position: absolute;
+        border-radius: 70px;
+        top: 3px;
+        left: 6px;
+        transition: 0.5s;
+        z-index: 1;
+    }
+    
+    .input:checked+.label:after {
+        left: calc(98%);
+        transform: translateX(-100%);
+    }
+    
+.label {
+    display: block;
+    width: 300px;
+    height: 30px;
+    background-color: #178864;
+    border-radius: 100px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-around;
+    top: 60px;
+}
+
+    .textIdioma {
+    
+        position: absolute;
+        left: 195px;
+        top: 102px;
+        font-weight: medium;
+        display: none;
+    
+    }
+    .textIdioma2 {
+    
+        position: absolute;
+        left: 85px;
+        top: 35px;
+        font-weight: medium;
+        width: 200px;
+        display: none;
+    
+    
+    }
+    
+    .btn12 {
+    
+        height: 30px;
+        width: 300px;
+        display: none;
+    }
 
 
 @media screen and (max-width:540px) {
