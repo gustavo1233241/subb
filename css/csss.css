@@ -18,6 +18,7 @@
   
 }
 
+
 #circulo1 {
 
     position: absolute;
@@ -32,7 +33,7 @@
 #circulo2 {
 
     position: absolute;
-    left: 190px;
+    left: 180px;
     margin-top: 33px;
     border-radius: 50%;
     width: 50px;
@@ -102,6 +103,176 @@
 
 
 
+#circulo3 {
+
+    position: absolute;
+    left: 175px;
+    margin-top: 33px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid green;
+    display: none;
+}
+
+
+
+.confiar{
+display: none;
+position: absolute;
+left: 35px;
+margin-top: 33px;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+top: -10px;
+background: #178864;
+
+
+}
+.confiaman{
+    display: none;
+
+    position:absolute;
+    right: 14px;
+    top: 16px;
+    
+    }
+
+.x5 {
+
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
+
+    display: block;
+    content: "";
+    top: 30%;
+    left: 24px;
+
+    transform: rotate(35deg);
+}
+
+.x6 {
+
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
+
+    display: block;
+    content: "";
+    top: 30%;
+    left: 24px;
+
+    transform: rotate(145deg);
+}
+
+
+.textCanal {
+    display: none;
+    position: absolute;
+    left: 145px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+
+}
+
+.textCanal2 {
+
+    position: absolute;
+    top: 70px;
+    font-weight: medium;
+    width: 20px;
+    left: 0px;
+
+}
+.textCanal3 {
+
+    position: absolute;
+    top: 70px;
+    font-weight: medium;
+    width: 70px;
+    left: 0px;
+
+}
+.textCanal4 {
+
+    position: absolute;
+    top: 70px;
+    font-weight: medium;
+    width: 150px;
+    left: 0px;
+
+}
+.textCanal5 {
+
+    position: absolute;
+    top: 70px;
+    font-weight: medium;
+    width: 50px;
+    left: 0px;
+
+}
+
+
+
+
+.d1 {
+    display: none;
+    background-color: #ffffff;
+    border-style: inherit;
+    border-radius: 10px;
+    position: absolute;
+    left: 240px;
+    margin-top: 250px;
+    width: 140px;
+    height: 140px;
+
+
+}
+
+
+.d2 {
+    display: none;
+    background-color: #ffffff;
+    border-style: inherit;
+    border-radius: 10px;
+    position: absolute;
+    left: 240px;
+    margin-top: 430px;
+    width: 140px;
+    height: 140px;
+
+
+}
+.d3 {
+    display: none;
+    background-color: #ffffff;
+    border-style: inherit;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    margin-top: 250px;
+    width: 140px;
+    height: 140px;
+
+
+}
+.d4 {
+    display: none;
+    background-color: #ffffff;
+    border-style: inherit;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    margin-top: 430px;
+    width: 140px;
+    height: 140px;
+
+}
 
 
 
@@ -332,7 +503,7 @@ input:checked+label:after {
 
     .linguis {
         position: absolute;
-        left: 70px;
+        left: 50px;
         top: 280px;
         display: none;
     }
@@ -372,7 +543,7 @@ input:checked+label:after {
     .textIdioma {
     
         position: absolute;
-        left: 195px;
+        left: 185px;
         top: 102px;
         font-weight: medium;
         display: none;
