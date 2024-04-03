@@ -88,8 +88,9 @@ function accessibilidadeSob123() {
     var menum16 = document.getElementById('d2');
     var menum26 = document.getElementById('d3');
     var menum36 = document.getElementById('d4');
-    var menum57 = document.getElementById('textIdioma2');
+    var menum57 = document.getElementById('textCanal2');
     var menum79 = document.getElementById('confiar');
+    var menum80 = document.getElementById('confiaman')
     
     if (interuptor11) {
         menum12.style.height = '100vh';
@@ -100,7 +101,7 @@ function accessibilidadeSob123() {
 
         menum35.style.display = 'block';
 
-        menum46.style.display = 'block';
+       
 
         menum36.style.display = 'block';
 
@@ -114,6 +115,8 @@ function accessibilidadeSob123() {
 
         menum79.style.display = 'block';
 
+        menum80.style.display = 'block';
+
         interuptor11 = false
 
     }
@@ -126,7 +129,7 @@ function accessibilidadeSob123() {
 
         menum35.style.display = 'none';
 
-        menum46.style.display = 'none';
+    
 
         menum36.style.display = 'none';
 
@@ -139,6 +142,7 @@ function accessibilidadeSob123() {
         menum79.style.display = 'none';
 
 
+        menum80.style.display = 'none';
 
         interuptor11=true
     }

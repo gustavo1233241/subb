@@ -18,7 +18,18 @@
   
 }
 
+#circulo {
 
+    position: absolute;
+    right: 245px;
+    margin-top: -13px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+
+}
 #circulo1 {
 
     position: absolute;
@@ -118,7 +129,7 @@
 
 
 .confiar{
-display: none;
+
 position: absolute;
 left: 35px;
 margin-top: 33px;
@@ -131,7 +142,7 @@ background: #178864;
 
 }
 .confiaman{
-    display: none;
+   
 
     position:absolute;
     right: 14px;
@@ -195,7 +206,7 @@ background: #178864;
     top: 70px;
     font-weight: medium;
     width: 70px;
-    left: 0px;
+    left: -10px;
 
 }
 .textCanal4 {
@@ -204,7 +215,7 @@ background: #178864;
     top: 70px;
     font-weight: medium;
     width: 150px;
-    left: 0px;
+    left: -10px;
 
 }
 .textCanal5 {
@@ -569,7 +580,119 @@ input:checked+label:after {
     }
 
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:551px) {
+
+
+    #circulo3 {
+
+        position: absolute;
+        left: 255px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        display: none;
+    }
+    
+
+
+
+    .textCanal {
+        display: none;
+        position: absolute;
+        left: 220px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+    
+    }
+
+    .d1 {
+        display: none;
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 350px;
+        margin-top: 250px;
+        width: 140px;
+        height: 140px;
+    
+    
+    }
+    
+    
+    .d2 {
+        display: none;
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 350px;
+        margin-top: 430px;
+        width: 140px;
+        height: 140px;
+    
+    
+    }
+    .d3 {
+        display: none;
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 100px;
+        margin-top: 250px;
+        width: 140px;
+        height: 140px;
+    
+    
+    }
+    .d4 {
+        display: none;
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 100px;
+        margin-top: 430px;
+        width: 140px;
+        height: 140px;
+    
+    }
+    
+    
+    
+
+
+
+    .linguis {
+        position: absolute;
+        left: 120px;
+        top: 280px;
+        display: none;
+    }
+    #circulo2 {
+
+        position: absolute;
+        left: 250px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        display: none;
+    }
+    .textIdioma {
+    
+        position: absolute;
+        left: 255px;
+        top: 102px;
+        font-weight: medium;
+        display: none;
+    
+    }
 
 
     .autoLinguagem {
@@ -577,7 +700,7 @@ input:checked+label:after {
         border-style: inherit;
         border-radius: 10px;
         position: absolute;
-        left: 30px;
+        left: 50px;
         margin-top: 360px;
         width: 250px;
         height: 130px;
@@ -590,7 +713,7 @@ input:checked+label:after {
         border-style: inherit;
         border-radius: 10px;
         position: absolute;
-        left: 30px;
+        left: 50px;
         margin-top: 560px;
         width: 250px;
         height: 130px;
@@ -602,156 +725,29 @@ input:checked+label:after {
         border-style: inherit;
         border-radius: 10px;
         position: absolute;
-        left: 30px;
+        left: 50px;
         margin-top: 160px;
         width: 250px;
         height: 130px;
     }
     
     #circulo1 {
+
+        position: absolute;
+        left: 250px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
 
         position: absolute;
         left: 230px;
-        margin-top: 33px;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: 2px solid green;
-        
-    }
-    
-
-    #textcelacess {
-
-        position: absolute;
-        left: 210px;
-        top: 90px;
-        font-weight: medium;
-    }
-    
-
-
-}
-@media screen and (max-width:476px) {
-
-
-    .autoLinguagem {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: 20px;
-        margin-top: 360px;
-        width: 250px;
-        height: 130px;
-    }
-    
-    
-    
-    .autoLetra {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: 20px;
-        margin-top: 560px;
-        width: 250px;
-        height: 130px;
-    }
-    
-
-    .autoContra {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: 20px;
-        margin-top: 160px;
-        width: 250px;
-        height: 130px;
-    }
-    
-    #circulo1 {
-
-        position: absolute;
-        left: 216px;
-        margin-top: 33px;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: 2px solid green;
-        
-    }
-    
-
-    #textcelacess {
-
-        position: absolute;
-        left: 195px;
-        top: 90px;
-        font-weight: medium;
-    }
-    
-
-
-}
-
-@media screen and (max-width:444px) {
-
-
-    .autoLinguagem {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: 6px;
-        margin-top: 360px;
-        width: 250px;
-        height: 130px;
-    }
-    
-    
-    
-    .autoLetra {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: 6px;
-        margin-top: 560px;
-        width: 250px;
-        height: 130px;
-    }
-    
-
-    .autoContra {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: 6px;
-        margin-top: 160px;
-        width: 250px;
-        height: 130px;
-    }
-    
-    #circulo1 {
-
-        position: absolute;
-        left: 200px;
-        margin-top: 33px;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: 2px solid green;
-        
-    }
-    
-
-    #textcelacess {
-
-        position: absolute;
-        left: 180px;
         top: 90px;
         font-weight: medium;
     }
@@ -823,3 +819,70 @@ input:checked+label:after {
 
 
 }
+
+@media screen and (max-width:476px) {
+
+
+    .autoLinguagem {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 20px;
+        margin-top: 360px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    
+    
+    .autoLetra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 20px;
+        margin-top: 560px;
+        width: 250px;
+        height: 130px;
+    }
+    
+
+    .autoContra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 20px;
+        margin-top: 160px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    #circulo1 {
+
+        position: absolute;
+        left: 216px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
+
+        position: absolute;
+        left: 195px;
+        top: 90px;
+        font-weight: medium;
+    }
+    
+
+
+}
+
+
+
