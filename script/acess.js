@@ -147,3 +147,58 @@ function accessibilidadeSob123() {
         interuptor11=true
     }
 }
+
+var interuptor14 = true;
+function accessibilidadeSob2() {
+    var menum12 = document.getElementById('adbusq');
+    var menum13 = document.getElementById('pesquisa1');
+    var menum24 = document.getElementById('circulo4')
+    var menum35 = document.getElementById('lupis1');
+    var menum57 = document.getElementById('textPesq');
+
+ 
+    
+    if (interuptor14) {
+        menum12.style.height = '100vh';
+
+        menum13.style.display = 'block';
+
+        menum24.style.display = 'block';
+
+        menum35.style.display = 'block';
+
+       
+
+     
+
+        menum57.style.display = 'block';
+
+      
+
+ 
+
+        interuptor14 = false
+
+    }
+    else { 
+        menum12.style.height = '0vh';
+
+        menum13.style.display = 'none';
+
+        menum24.style.display = 'none';
+
+        menum35.style.display = 'none';
+
+       
+
+     
+
+        menum57.style.display = 'none';
+
+      
+
+      
+
+        interuptor14=true
+    }
+}

@@ -21,6 +21,32 @@ interruptor = true
 
 });
 
+const btn4=document.querySelector('#btnAcessibilidadecontraste1');
+
+
+
+btn4.addEventListener('click' , () => { 
+    
+
+if(btn4.checked){
+    html.setAttribute('class', 'corpo');
+ 
+    
+}
+else{
+
+html.removeAttribute('class','corpo')
+
+
+
+}
+
+
+
+
+});
+
+
 
 const btnletra=document.querySelector('#btnAcessibilidadeletra');
 const html1 = document.querySelector('h2');
@@ -40,6 +66,30 @@ html1.removeAttribute('class','letra')
 interruptor1 = true
 }
 });
+
+
+
+
+
+const btnletra1=document.querySelector('#btnAcessibilidadeletra1');
+
+
+
+btnletra1.addEventListener('click' , () => { 
+    
+
+if(btnletra1.checked){
+    html1.setAttribute('class', 'letra');
+   
+}
+else{
+
+html1.removeAttribute('class','letra')
+
+
+}
+});
+
 
 
 

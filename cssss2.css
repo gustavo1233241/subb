@@ -63,20 +63,8 @@ font-weight: medium;
 width: 200px;
 
 }
-#pesquisa{
-position: absolute;
-border: 1px solid green;
-border-radius: 30px;
 
-margin-top: 300px;
-left: 50px;
-width: 80vw;
-height: 35px;
-
-
-
-}
-#pesquisa{
+#pesquisa1{
     position: absolute;
     border: 1px solid green;
     border-radius: 30px;
@@ -97,7 +85,7 @@ height: 35px;
     height: 10px;
 }
 
-#pesquisa:focus{
+#pesquisa1:focus{
   
    outline: none;
   
@@ -107,7 +95,7 @@ height: 35px;
     
     }
 
-    .icone1.lupa {
+    .icone1.lupa1 {
         width: 15px;
         height: 15px;
         border: 2px solid green;
@@ -117,7 +105,7 @@ height: 35px;
         right: -480px;
     }
     
-    .icone1.lupa:after {
+    .icone1.lupa1:after {
         position: absolute;
         width: 8px;
         height: 2px;

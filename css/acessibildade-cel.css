@@ -235,6 +235,12 @@
     .parab {
         display: none;
     }
+
+    .letra{
+
+font-size: 40px;
+
+    }
 }
 
 @media screen and (max-width:521px) {
