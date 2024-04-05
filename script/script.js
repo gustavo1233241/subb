@@ -23,7 +23,7 @@ interruptor = true
 
 const btn4=document.querySelector('#btnAcessibilidadecontraste1');
 
-
+console.log(btn4);
 
 btn4.addEventListener('click' , () => { 
     
@@ -73,7 +73,7 @@ interruptor1 = true
 
 const btnletra1=document.querySelector('#btnAcessibilidadeletra1');
 
-
+console.log(btnletra1)
 
 btnletra1.addEventListener('click' , () => { 
     
@@ -84,7 +84,7 @@ if(btnletra1.checked){
 }
 else{
 
-html1.removeAttribute('class','letra')
+html1.setAttribute('class','titulo')
 
 
 }
@@ -98,7 +98,7 @@ var titulo = document.querySelector("#titulo");
 var tituloCelular = document.querySelector("#titulo-celular")
 var botao = document.querySelector("#troca-titulo");
 var botaopt = document.querySelector("#troca-titulo1");
-
+var btningcel = document.querySelector('#trocass12')
 botao.addEventListener("click", function(){
 
            
@@ -118,8 +118,30 @@ botao.addEventListener("click", function(){
               
     
     })
+})    
+
+    if(btningcel.checked){
+
            
-})
+
+          
+        titulo.innerHTML = "Oil is the energy <br/> that moves the <br/> world!";  
+        tituloCelular.innerHTML = "You are on: PETROBRAS WEBSITE"
+    }
+    else{
+   
+     
+            titulo.innerHTML = "O petróleo é a <br/> energia que move o <br/> mundo!";  
+            tituloCelular.innerHTML = "Você está em: SITE PETROBRAS"
+           
+            
+    
+      
 
 
+
+
+
+
+}
 

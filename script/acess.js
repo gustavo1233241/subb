@@ -39,7 +39,7 @@ function accessibilidadeSob12() {
     var menum35 = document.getElementById('textIdioma');
     var menum46 = document.getElementById('mundi');
     var menum57 = document.getElementById('textIdioma2');
-    var menum79 = document.getElementById('btn12');
+
     
     if (interuptor11) {
         menum12.style.height = '100vh';
@@ -54,7 +54,7 @@ function accessibilidadeSob12() {
 
         menum57.style.display = 'block';
 
-        menum79.style.display = 'block';
+     
 
         interuptor11 = false
 
@@ -70,7 +70,7 @@ function accessibilidadeSob12() {
 
         menum46.style.display = 'none';
 
-        menum79.style.display = 'none';
+      ;
 
 
 
