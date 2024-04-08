@@ -2,13 +2,12 @@
 
     display: none;
     position: absolute;
-    left: 250px;
     margin-top: 33px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     border: 2px solid green;
-
+    
 
 }
 
@@ -713,6 +712,25 @@ input:checked+span:after {
 @media screen and (max-width:551px) {
 
 
+    .textPesq{
+       
+    position: absolute;
+    left: 220px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+    
+    }
+
+
+
+
+    .c4 {
+
+        position: absolute;
+        left: 245px;
+     
+     }
     #circulo3 {
 
         position: absolute;
@@ -885,6 +903,37 @@ input:checked+span:after {
 
 
 }
+@media screen and (max-width:524px) {
+
+    .c4 {
+
+        position: absolute;
+        left: 240px;
+     
+     }
+
+}
+@media screen and (max-width:500px) {
+
+    .c4 {
+
+        position: absolute;
+        left: 230px;
+     
+     }
+     .textPesq{
+     
+    position: absolute;
+    left: 205px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+    
+    }
+
+
+}
+
 
 @media screen and (max-width:444px) {
 

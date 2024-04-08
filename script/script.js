@@ -90,6 +90,24 @@ html1.setAttribute('class','titulo')
 }
 });
 
+const btnletra2=document.querySelector('#btnAcessibilidadeletra2');
+
+console.log(btnletra2)
+
+btnletra2.addEventListener('click' , () => { 
+    
+
+if(btnletra2.checked){
+    html1.setAttribute('class', 'letra2');
+   
+}
+else{
+
+html1.setAttribute('class','titulo')
+
+
+}
+});
 
 
 
@@ -119,7 +137,7 @@ botao.addEventListener("click", function(){
     
     })
 })    
-
+btningcel.addEventListener("click", function(){
     if(btningcel.checked){
 
            
@@ -135,13 +153,13 @@ botao.addEventListener("click", function(){
             tituloCelular.innerHTML = "Você está em: SITE PETROBRAS"
            
             
-    
-      
+    }   
+})
 
 
 
 
 
 
-}
+
 

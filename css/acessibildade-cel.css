@@ -109,7 +109,41 @@
 
 
 @media screen and (max-width:551px) {
+    
 
+
+
+
+   #lupis1 {
+
+    position: absolute;
+    right: 80px;
+   }
+
+    .mundi{
+
+        position: absolute;
+        left: 140px;
+        margin-top:-40px;
+        height: 50px;
+        width:50px;
+       
+        }
+
+    .cagf1{
+
+position: absolute;
+left: 5px;
+
+    }
+    
+    
+    .letra2{
+
+
+font-size: 22px;
+
+    }
     .acessibilidade-cel {
 
         display: flex;
@@ -245,7 +279,11 @@ font-size: 40px;
 
 @media screen and (max-width:521px) {
 
+    .c4 {
 
+        align-content: center;
+    
+    }
     #circulo {
 
         position: absolute;
