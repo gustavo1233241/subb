@@ -151,7 +151,7 @@ outline: none;
     border: 2px solid green;
     display: none;
 }
-#circulo2 {
+.c2 {
 
     position: absolute;
     left: 180px;
@@ -811,7 +811,14 @@ input:checked+span:after {
     }
     
     
-    
+    .c2{
+
+
+
+position: absolute;
+left: 250px;
+
+    }
 
 
 
@@ -821,17 +828,7 @@ input:checked+span:after {
         top: 280px;
         display: none;
     }
-    #circulo2 {
-
-        position: absolute;
-        left: 250px;
-        margin-top: 33px;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: 2px solid green;
-        display: none;
-    }
+  
     .textIdioma {
     
         position: absolute;
@@ -908,23 +905,80 @@ input:checked+span:after {
     .c4 {
 
         position: absolute;
-        left: 240px;
+        left: 232px;
      
      }
 
+     .textPesq{
+     
+        position: absolute;
+        left: 200px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+        
+        }
+        .c2{
+
+
+
+            position: absolute;
+            left: 240px;
+            
+                }
+            .textIdioma{
+
+             position: absolute;
+            left: 245px;
+
+            }
+
+
+            .linguis{
+
+
+position: absolute;
+left:105px;
+
+            }
 }
 @media screen and (max-width:500px) {
+
+    .c2{
+
+
+
+        position: absolute;
+        left: 230px;
+        
+            }
+        .textIdioma{
+
+         position: absolute;
+        left: 235px;
+
+        }
+
+
+        .linguis{
+
+
+position: absolute;
+left:100px;
+
+        }
+
 
     .c4 {
 
         position: absolute;
-        left: 230px;
+        left: 226px;
      
      }
      .textPesq{
      
     position: absolute;
-    left: 205px;
+    left: 200px;
     top: 182px;
     font-weight: medium;
     width: 200px;
@@ -933,73 +987,50 @@ input:checked+span:after {
 
 
 }
-
-
-@media screen and (max-width:444px) {
-
-
-    .autoLinguagem {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: -12px;
-        margin-top: 360px;
-        width: 250px;
-        height: 130px;
-    }
-    
-    
-    
-    .autoLetra {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: -12px;
-        margin-top: 560px;
-        width: 250px;
-        height: 130px;
-    }
-    
-
-    .autoContra {
-        background-color: #ECECEC;
-        border-style: inherit;
-        border-radius: 10px;
-        position: absolute;
-        left: -12px;
-        margin-top: 160px;
-        width: 250px;
-        height: 130px;
-    }
-    
-    #circulo1 {
-
-        position: absolute;
-        left: 180px;
-        margin-top: 33px;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: 2px solid green;
-        
-    }
-    
-
-    #textcelacess {
-
-        position: absolute;
-        left: 160px;
-        top: 90px;
-        font-weight: medium;
-    }
-    
-
-
-}
-
 @media screen and (max-width:476px) {
+
+    .c2{
+
+
+
+        position: absolute;
+        left: 220px;
+        
+            }
+        .textIdioma{
+
+         position: absolute;
+        left: 225px;
+
+        }
+
+
+        .linguis{
+
+
+position: absolute;
+left:90px;
+
+        }
+        
+        
+
+    
+    .c4 {
+
+        position: absolute;
+        left: 216px;
+     
+     }
+     .textPesq{
+     
+    position: absolute;
+    left: 185px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+    
+    }
 
 
     .autoLinguagem {
@@ -1064,4 +1095,195 @@ input:checked+span:after {
 }
 
 
+@media screen and (max-width:444px) {
+
+    .c2{
+
+
+
+        position: absolute;
+        left: 200px;
+        
+            }
+        .textIdioma{
+
+         position: absolute;
+        left: 205px;
+
+        }
+
+
+        .linguis{
+
+
+position: absolute;
+left:70px;
+
+        }
+
+    .c4 {
+
+        position: absolute;
+        left: 196px;
+     
+     }
+     .textPesq{
+     
+    position: absolute;
+    left: 175px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+    
+    }
+
+
+    .autoLinguagem {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: -12px;
+        margin-top: 360px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    
+    
+    .autoLetra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: -12px;
+        margin-top: 560px;
+        width: 250px;
+        height: 130px;
+    }
+    
+
+    .autoContra {
+        background-color: #ECECEC;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: -12px;
+        margin-top: 160px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    #circulo1 {
+
+        position: absolute;
+        left: 180px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid green;
+        
+    }
+    
+
+    #textcelacess {
+
+        position: absolute;
+        left: 160px;
+        top: 90px;
+        font-weight: medium;
+    }
+    
+
+
+}
+
+
+@media screen and (max-width:400px) {
+    .c2{
+
+
+
+        position: absolute;
+        left: 180px;
+        
+            }
+        .textIdioma{
+
+         position: absolute;
+        left: 185px;
+
+        }
+
+
+        .linguis{
+
+
+position: absolute;
+left:50px;
+
+        }
+
+
+    .c4 {
+
+        position: absolute;
+        left: 186px;
+     
+     }
+     .textPesq{
+     
+    position: absolute;
+    left: 155px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+    
+    }
+}
+
+
+@media screen and (max-width:380px) {
+
+    .c2{
+
+
+
+        position: absolute;
+        left: 160px;
+        
+            }
+        .textIdioma{
+
+         position: absolute;
+        left: 165px;
+
+        }
+
+
+        .linguis{
+
+
+position: absolute;
+left:30px;
+
+        }
+
+    .c4 {
+
+        position: absolute;
+        left: 176px;
+     
+     }
+     .textPesq{
+     
+    position: absolute;
+    left: 140px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
+    
+    }
+}
 

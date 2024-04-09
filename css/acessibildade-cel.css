@@ -281,9 +281,10 @@ font-size: 40px;
 
     .c4 {
 
-        align-content: center;
-    
-    }
+        position: absolute;
+        left: 20px;
+     
+     }
     #circulo {
 
         position: absolute;
