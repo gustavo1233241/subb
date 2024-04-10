@@ -7,75 +7,75 @@
     width: 50px;
     height: 50px;
     border: 2px solid green;
-    
+
 
 }
 
 .x7 {
 
-position: absolute;
-width: 2px;
-height: 24px;
-background-color: green;
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
 
-display: block;
-content: "";
-top: 30%;
-left: 23px;
+    display: block;
+    content: "";
+    top: 30%;
+    left: 23px;
 
-transform: rotate(35deg);
+    transform: rotate(35deg);
 }
 
 .x8 {
 
-position: absolute;
-width: 2px;
-height: 24px;
-background-color: green;
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: green;
 
-display: block;
-content: "";
-top: 30%;
-left: 23px;
+    display: block;
+    content: "";
+    top: 30%;
+    left: 23px;
 
-transform: rotate(145deg);
+    transform: rotate(145deg);
 }
 
-.textPesq{
+.textPesq {
     display: none;
-position: absolute;
-left: 220px;
-top: 182px;
-font-weight: medium;
-width: 200px;
+    position: absolute;
+    left: 220px;
+    top: 182px;
+    font-weight: medium;
+    width: 200px;
 
 }
 
-#pesquisa1{
+#pesquisa1 {
     display: none;
-position: absolute;
-border: 1px solid green;
-border-radius: 30px;
-text-align:calc(left = 10px);
-margin-top: 300px;
-left: 50px;
-width: 80vw;
-height: 35px;
+    position: absolute;
+    border: 1px solid green;
+    border-radius: 30px;
+    text-align: calc(left=10px);
+    margin-top: 300px;
+    left: 50px;
+    width: 80vw;
+    height: 35px;
 
 
 
 }
 
-.pesq32{
+.pesq32 {
 
 
 
-height: 10px;
+    height: 10px;
 }
 
-#pesquisa1:focus{
+#pesquisa1:focus {
 
-outline: none;
+    outline: none;
 
 
 
@@ -123,9 +123,9 @@ outline: none;
     z-index: 4;
     transition: height .6s ease;
     bottom: 0;
-    
-   
-  
+
+
+
 }
 
 #circulo {
@@ -140,6 +140,7 @@ outline: none;
     border: 3px solid grey;
 
 }
+
 #circulo1 {
 
     position: absolute;
@@ -151,6 +152,7 @@ outline: none;
     border: 2px solid green;
     display: none;
 }
+
 .c2 {
 
     position: absolute;
@@ -162,6 +164,7 @@ outline: none;
     border: 2px solid green;
     display: none;
 }
+
 .x1 {
 
     position: absolute;
@@ -191,6 +194,7 @@ outline: none;
 
     transform: rotate(145deg);
 }
+
 .x3 {
 
     position: absolute;
@@ -224,7 +228,7 @@ outline: none;
 
 
 
-#circulo3 {
+.c3 {
 
     position: absolute;
     left: 175px;
@@ -238,27 +242,28 @@ outline: none;
 
 
 
-.confiar{
+.confiar {
 
-position: absolute;
-left: 35px;
-margin-top: 33px;
-border-radius: 50%;
-width: 60px;
-height: 60px;
-top: -10px;
-background: #178864;
+    position: absolute;
+    left: 35px;
+    margin-top: 33px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    background: #178864;
 
 
 }
-.confiaman{
-   
 
-    position:absolute;
+.confiaman {
+
+
+    position: absolute;
     right: 14px;
     top: 16px;
-    
-    }
+
+}
 
 .x5 {
 
@@ -310,6 +315,7 @@ background: #178864;
     left: 0px;
 
 }
+
 .textCanal3 {
 
     position: absolute;
@@ -319,6 +325,7 @@ background: #178864;
     left: -10px;
 
 }
+
 .textCanal4 {
 
     position: absolute;
@@ -328,6 +335,7 @@ background: #178864;
     left: -10px;
 
 }
+
 .textCanal5 {
 
     position: absolute;
@@ -369,6 +377,7 @@ background: #178864;
 
 
 }
+
 .d3 {
     display: none;
     background-color: #ffffff;
@@ -382,6 +391,7 @@ background: #178864;
 
 
 }
+
 .d4 {
     display: none;
     background-color: #ffffff;
@@ -402,7 +412,7 @@ background: #178864;
 .divs {
     width: 100px;
     height: 100px;
-    
+
     position: absolute;
     left: 100px;
     display: none;
@@ -448,37 +458,38 @@ background: #178864;
 
 
 }
-.desenhe3{
+
+.desenhe3 {
 
     position: absolute;
-        left: 7.4px;
-        margin-top: 7.2px;
-        border-radius: 50px 0px 0px 50px;
-        width: 11px;
-        height: 20px;
-        
-        background: white;
-    
-    }
+    left: 7.4px;
+    margin-top: 7.2px;
+    border-radius: 50px 0px 0px 50px;
+    width: 11px;
+    height: 20px;
+
+    background: white;
+
+}
 
 
-#btn1{
+#btn1 {
 
 
     position: absolute;
     left: 55px;
     margin-top: 30px;
-    
-    }
 
-    #btn2{
+}
+
+#btn2 {
 
 
-        position: absolute;
-        left: 55px;
-        margin-top: 30px;
-        
-        }
+    position: absolute;
+    left: 55px;
+    margin-top: 30px;
+
+}
 
 
 #textcelacess {
@@ -488,6 +499,14 @@ background: #178864;
     top: 90px;
     font-weight: medium;
     display: none;
+}
+
+
+.divs1 {
+
+    position: absolute;
+    left: 0px;
+
 }
 
 #textcelcontra {
@@ -550,7 +569,7 @@ background: #178864;
     margin-top: 20px;
 }
 
-input[type='checkbox']{
+input[type='checkbox'] {
     content: "";
     width: 20px;
     height: 20px;
@@ -562,16 +581,18 @@ input[type='checkbox']{
     transition: 0.5s;
     opacity: 0;
 }
-.cagf{
 
-position: absolute;
-top: 30px;
-left: 20px;
-   
+.cagf {
+
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
 
 
 
 }
+
 span {
     display: block;
     width: 45px;
@@ -586,7 +607,7 @@ span {
 }
 
 
-.bolinhas::after{
+.bolinhas::after {
 
     content: "";
     width: 20px;
@@ -617,6 +638,7 @@ input:checked+span:after {
     left: calc(100%);
     transform: translateX(-100%);
 }
+
 #a21 {
     position: absolute;
     z-index: 2;
@@ -630,41 +652,43 @@ input:checked+span:after {
     left: 50px;
     z-index: 2;
     margin-top: 3px;
-   
+
 }
-.mundi{
+
+.mundi {
 
     position: absolute;
     left: 130px;
-    margin-top:-40px;
+    margin-top: -40px;
     height: 50px;
-    width:50px;
+    width: 50px;
     display: none;
-    }
+}
 
-    .linguis {
-        position: absolute;
-        left: 50px;
-        top: 280px;
-        display: none;
-    }
-    .label::after {
-        content: "";
-        width: 150px;
-        height: 23px;
-        background-color: #ffffff;
-        position: absolute;
-        border-radius: 70px;
-        top: 3px;
-        left: 5px;
-        transition: 0.5s;
-    }
-    
-    input:checked+.label:after {
-        left: calc(98%);
-        transform: translateX(-100%);
-    }
-    
+.linguis {
+    position: absolute;
+    left: 50px;
+    top: 280px;
+    display: none;
+}
+
+.label::after {
+    content: "";
+    width: 150px;
+    height: 23px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 70px;
+    top: 3px;
+    left: 5px;
+    transition: 0.5s;
+}
+
+input:checked+.label:after {
+    left: calc(98%);
+    transform: translateX(-100%);
+}
+
 .label {
     display: block;
     width: 300px;
@@ -680,46 +704,47 @@ input:checked+span:after {
     top: 60px;
 }
 
-    .textIdioma {
-    
-        position: absolute;
-        left: 185px;
-        top: 102px;
-        font-weight: medium;
-        display: none;
-    
-    }
-    .textIdioma2 {
-    
-        position: absolute;
-        left: 85px;
-        top: 35px;
-        font-weight: medium;
-        width: 200px;
-        display: none;
-    
-    
-    }
-    
-    .btn12 {
-    
-        height: 30px;
-        width: 3300px;
-        display: none;
-    }
+.textIdioma {
+
+    position: absolute;
+    left: 185px;
+    top: 102px;
+    font-weight: medium;
+    display: none;
+
+}
+
+.textIdioma2 {
+
+    position: absolute;
+    left: 85px;
+    top: 35px;
+    font-weight: medium;
+    width: 200px;
+    display: none;
+
+
+}
+
+.btn12 {
+
+    height: 30px;
+    width: 3300px;
+    display: none;
+}
 
 
 @media screen and (max-width:551px) {
 
 
-    .textPesq{
-       
-    position: absolute;
-    left: 220px;
-    top: 182px;
-    font-weight: medium;
-    width: 200px;
-    
+    .textPesq {
+
+        position: absolute;
+        left: 220px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+
     }
 
 
@@ -729,9 +754,10 @@ input:checked+span:after {
 
         position: absolute;
         left: 245px;
-     
-     }
-    #circulo3 {
+
+    }
+
+    .c3 {
 
         position: absolute;
         left: 255px;
@@ -742,7 +768,7 @@ input:checked+span:after {
         border: 2px solid green;
         display: none;
     }
-    
+
 
 
 
@@ -753,7 +779,7 @@ input:checked+span:after {
         top: 182px;
         font-weight: medium;
         width: 200px;
-    
+
     }
 
     .d1 {
@@ -766,11 +792,11 @@ input:checked+span:after {
         margin-top: 250px;
         width: 140px;
         height: 140px;
-    
-    
+
+
     }
-    
-    
+
+
     .d2 {
         display: none;
         background-color: #ffffff;
@@ -781,9 +807,10 @@ input:checked+span:after {
         margin-top: 430px;
         width: 140px;
         height: 140px;
-    
-    
+
+
     }
+
     .d3 {
         display: none;
         background-color: #ffffff;
@@ -794,9 +821,10 @@ input:checked+span:after {
         margin-top: 250px;
         width: 140px;
         height: 140px;
-    
-    
+
+
     }
+
     .d4 {
         display: none;
         background-color: #ffffff;
@@ -807,16 +835,16 @@ input:checked+span:after {
         margin-top: 430px;
         width: 140px;
         height: 140px;
-    
+
     }
-    
-    
-    .c2{
+
+
+    .c2 {
 
 
 
-position: absolute;
-left: 250px;
+        position: absolute;
+        left: 250px;
 
     }
 
@@ -828,15 +856,15 @@ left: 250px;
         top: 280px;
         display: none;
     }
-  
+
     .textIdioma {
-    
+
         position: absolute;
         left: 255px;
         top: 102px;
         font-weight: medium;
         display: none;
-    
+
     }
 
 
@@ -850,9 +878,9 @@ left: 250px;
         width: 250px;
         height: 130px;
     }
-    
-    
-    
+
+
+
     .autoLetra {
         background-color: #ECECEC;
         border-style: inherit;
@@ -863,7 +891,7 @@ left: 250px;
         width: 250px;
         height: 130px;
     }
-    
+
 
     .autoContra {
         background-color: #ECECEC;
@@ -875,7 +903,7 @@ left: 250px;
         width: 250px;
         height: 130px;
     }
-    
+
     #circulo1 {
 
         position: absolute;
@@ -885,9 +913,9 @@ left: 250px;
         width: 50px;
         height: 50px;
         border: 2px solid green;
-        
+
     }
-    
+
 
     #textcelacess {
 
@@ -896,140 +924,225 @@ left: 250px;
         top: 90px;
         font-weight: medium;
     }
-    
+
 
 
 }
+
 @media screen and (max-width:524px) {
+
+
+
+    .c3 {
+
+        position: absolute;
+        left: 240px;
+
+    }
+
+    .textCanal {
+
+        position: absolute;
+        left: 210px;
+
+    }
+
+    .divs1 {
+
+        position: absolute;
+        left: -30px;
+
+    }
+
+
 
     .c4 {
 
         position: absolute;
         left: 232px;
-     
-     }
 
-     .textPesq{
-     
+    }
+
+    .textPesq {
+
         position: absolute;
         left: 200px;
         top: 182px;
         font-weight: medium;
         width: 200px;
-        
-        }
-        .c2{
+
+    }
+
+    .c2 {
 
 
 
-            position: absolute;
-            left: 240px;
-            
-                }
-            .textIdioma{
+        position: absolute;
+        left: 240px;
 
-             position: absolute;
-            left: 245px;
+    }
 
-            }
+    .textIdioma {
 
+        position: absolute;
+        left: 245px;
 
-            .linguis{
+    }
 
 
-position: absolute;
-left:105px;
+    .linguis {
 
-            }
+
+        position: absolute;
+        left: 105px;
+
+    }
 }
+
 @media screen and (max-width:500px) {
 
-    .c2{
+
+
+
+
+
+    .c3 {
+
+        position: absolute;
+        left: 230px;
+
+    }
+
+    .textCanal {
+
+        position: absolute;
+        left: 200px;
+
+    }
+
+    .divs1 {
+
+        position: absolute;
+        left: -30px;
+
+    }
+
+    .c2 {
 
 
 
         position: absolute;
         left: 230px;
-        
-            }
-        .textIdioma{
 
-         position: absolute;
+    }
+
+    .textIdioma {
+
+        position: absolute;
         left: 235px;
 
-        }
+    }
 
 
-        .linguis{
+    .linguis {
 
 
-position: absolute;
-left:100px;
+        position: absolute;
+        left: 100px;
 
-        }
+    }
 
 
     .c4 {
 
         position: absolute;
         left: 226px;
-     
-     }
-     .textPesq{
-     
-    position: absolute;
-    left: 200px;
-    top: 182px;
-    font-weight: medium;
-    width: 200px;
-    
+
+    }
+
+    .textPesq {
+
+        position: absolute;
+        left: 200px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+
     }
 
 
 }
+
 @media screen and (max-width:476px) {
 
-    .c2{
+
+
+
+
+    .c3 {
+
+        position: absolute;
+        left: 230px;
+
+    }
+
+    .textCanal {
+
+        position: absolute;
+        left: 200px;
+
+    }
+
+    .divs1 {
+
+        position: absolute;
+        left: -50px;
+
+    }
+
+    .c2 {
 
 
 
         position: absolute;
         left: 220px;
-        
-            }
-        .textIdioma{
 
-         position: absolute;
+    }
+
+    .textIdioma {
+
+        position: absolute;
         left: 225px;
 
-        }
+    }
 
 
-        .linguis{
+    .linguis {
 
 
-position: absolute;
-left:90px;
+        position: absolute;
+        left: 90px;
 
-        }
-        
-        
+    }
 
-    
+
+
+
     .c4 {
 
         position: absolute;
         left: 216px;
-     
-     }
-     .textPesq{
-     
-    position: absolute;
-    left: 185px;
-    top: 182px;
-    font-weight: medium;
-    width: 200px;
-    
+
+    }
+
+    .textPesq {
+
+        position: absolute;
+        left: 185px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+
     }
 
 
@@ -1043,9 +1156,9 @@ left:90px;
         width: 250px;
         height: 130px;
     }
-    
-    
-    
+
+
+
     .autoLetra {
         background-color: #ECECEC;
         border-style: inherit;
@@ -1056,7 +1169,7 @@ left:90px;
         width: 250px;
         height: 130px;
     }
-    
+
 
     .autoContra {
         background-color: #ECECEC;
@@ -1068,7 +1181,7 @@ left:90px;
         width: 250px;
         height: 130px;
     }
-    
+
     #circulo1 {
 
         position: absolute;
@@ -1078,9 +1191,9 @@ left:90px;
         width: 50px;
         height: 50px;
         border: 2px solid green;
-        
+
     }
-    
+
 
     #textcelacess {
 
@@ -1089,7 +1202,7 @@ left:90px;
         top: 90px;
         font-weight: medium;
     }
-    
+
 
 
 }
@@ -1097,44 +1210,68 @@ left:90px;
 
 @media screen and (max-width:444px) {
 
-    .c2{
+
+    .c3 {
+
+        position: absolute;
+        left: 210px;
+
+    }
+
+    .textCanal {
+
+        position: absolute;
+        left: 175px;
+
+    }
+
+    .divs1 {
+
+        position: absolute;
+        left: -60px;
+
+    }
+
+    .c2 {
 
 
 
         position: absolute;
         left: 200px;
-        
-            }
-        .textIdioma{
 
-         position: absolute;
+    }
+
+    .textIdioma {
+
+        position: absolute;
         left: 205px;
 
-        }
+    }
 
 
-        .linguis{
+    .linguis {
 
 
-position: absolute;
-left:70px;
+        position: absolute;
+        left: 70px;
 
-        }
+    }
 
     .c4 {
 
         position: absolute;
         left: 196px;
-     
-     }
-     .textPesq{
-     
-    position: absolute;
-    left: 175px;
-    top: 182px;
-    font-weight: medium;
-    width: 200px;
-    
+
+    }
+
+    .textPesq {
+
+        position: absolute;
+        left: 175px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+
     }
 
 
@@ -1148,9 +1285,9 @@ left:70px;
         width: 250px;
         height: 130px;
     }
-    
-    
-    
+
+
+
     .autoLetra {
         background-color: #ECECEC;
         border-style: inherit;
@@ -1161,7 +1298,7 @@ left:70px;
         width: 250px;
         height: 130px;
     }
-    
+
 
     .autoContra {
         background-color: #ECECEC;
@@ -1173,7 +1310,7 @@ left:70px;
         width: 250px;
         height: 130px;
     }
-    
+
     #circulo1 {
 
         position: absolute;
@@ -1183,9 +1320,9 @@ left:70px;
         width: 50px;
         height: 50px;
         border: 2px solid green;
-        
+
     }
-    
+
 
     #textcelacess {
 
@@ -1194,96 +1331,179 @@ left:70px;
         top: 90px;
         font-weight: medium;
     }
+
+    .d1 {
+
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 350px;
+        margin-top: 250px;
+        width: 120px;
+        height: 120px;
+    
+    
+    }
+    
+    .d2 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 340px;
+        margin-top: 430px;
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .confiaman{
+
+
+        position: absolute;
+        right: 15px;
+        top: 18px;
     
 
+    }
+
+.textCanal2{
+
+    position: absolute;
+    right: 25px;
+    top: 55px;
+
+}
+    .textCanal5{
+
+        font-size: 15px;
+        top: 55px;
+        left: -15px;
+
+    }
+
+    .textCanal3{
+        font-size: 15px;
+        top: 55px;
+        left: -15px;
+    }
+    .d3 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 130px;
+        margin-top: 250px;
+        width: 120px;
+        height: 120px;
+    
+    }
+    
+    .d4 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 130px;
+        margin-top: 430px;
+        width: 120px;
+        height: 120px;
+    }
 
 }
 
 
 @media screen and (max-width:400px) {
-    .c2{
+
+   
+
+    .c2 {
 
 
 
         position: absolute;
         left: 180px;
-        
-            }
-        .textIdioma{
 
-         position: absolute;
+    }
+
+    .textIdioma {
+
+        position: absolute;
         left: 185px;
 
-        }
+    }
 
 
-        .linguis{
+    .linguis {
 
 
-position: absolute;
-left:50px;
+        position: absolute;
+        left: 50px;
 
-        }
+    }
 
 
     .c4 {
 
         position: absolute;
         left: 186px;
-     
-     }
-     .textPesq{
-     
-    position: absolute;
-    left: 155px;
-    top: 182px;
-    font-weight: medium;
-    width: 200px;
-    
+
+    }
+
+    .textPesq {
+
+        position: absolute;
+        left: 155px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+
     }
 }
 
 
 @media screen and (max-width:380px) {
 
-    .c2{
+    .c2 {
 
 
 
         position: absolute;
         left: 160px;
-        
-            }
-        .textIdioma{
 
-         position: absolute;
+    }
+
+    .textIdioma {
+
+        position: absolute;
         left: 165px;
 
-        }
+    }
 
 
-        .linguis{
+    .linguis {
 
 
-position: absolute;
-left:30px;
+        position: absolute;
+        left: 30px;
 
-        }
+    }
 
     .c4 {
 
         position: absolute;
         left: 176px;
-     
-     }
-     .textPesq{
-     
-    position: absolute;
-    left: 140px;
-    top: 182px;
-    font-weight: medium;
-    width: 200px;
-    
+
+    }
+
+    .textPesq {
+
+        position: absolute;
+        left: 140px;
+        top: 182px;
+        font-weight: medium;
+        width: 200px;
+
     }
 }
-

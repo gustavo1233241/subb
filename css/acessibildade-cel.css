@@ -633,7 +633,7 @@ font-style: 40px;
         left: -8px;
     }
     .letra{
-font-size: 200px;
+font-size: 35px;
 
     }
 
@@ -841,6 +841,11 @@ font-size: 200px;
 @media screen and (max-width:393px) {
 
 
+    .letra{
+
+        font-size: 34px;
+    }
+
     #circulo {
 
         position: absolute;
@@ -1027,7 +1032,7 @@ font-size: 200px;
 
     .titulo {
 
-
+        
         font-size: 30px;
     }
 
