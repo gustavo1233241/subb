@@ -736,6 +736,31 @@ input:checked+.label:after {
 
 @media screen and (max-width:551px) {
 
+    .confiar {
+
+        position: absolute;
+        left: 40px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        top: -10px;
+        background: #178864;
+    
+    
+    }
+    
+
+
+    .confiaman{
+
+
+        position: absolute;
+        right: 14px;
+        top: 18px;
+    
+
+    }
 
     .textPesq {
 
@@ -1077,19 +1102,19 @@ input:checked+.label:after {
 
 
 
-
+   
 
     .c3 {
 
         position: absolute;
-        left: 230px;
+        left: 210px;
 
     }
 
     .textCanal {
 
         position: absolute;
-        left: 200px;
+        left: 180px;
 
     }
 
@@ -1209,6 +1234,34 @@ input:checked+.label:after {
 
 
 @media screen and (max-width:444px) {
+
+
+
+    .confiar {
+
+        position: absolute;
+        left: 30px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        top: -10px;
+        background: #178864;
+    
+    
+    }
+    
+
+
+    .confiaman{
+
+
+        position: absolute;
+        right: 14px;
+        top: 18px;
+    
+
+    }
 
 
     .c3 {
@@ -1351,22 +1404,13 @@ input:checked+.label:after {
         border-style: inherit;
         border-radius: 10px;
         position: absolute;
-        left: 340px;
+        left: 350px;
         margin-top: 430px;
         width: 120px;
         height: 120px;
     }
 
 
-    .confiaman{
-
-
-        position: absolute;
-        right: 15px;
-        top: 18px;
-    
-
-    }
 
 .textCanal2{
 
@@ -1384,6 +1428,12 @@ input:checked+.label:after {
     }
 
     .textCanal3{
+        font-size: 15px;
+        top: 55px;
+        left: -15px;
+    }
+
+    .textCanal4{
         font-size: 15px;
         top: 55px;
         left: -15px;
@@ -1416,7 +1466,96 @@ input:checked+.label:after {
 
 @media screen and (max-width:400px) {
 
-   
+
+
+
+    .c3 {
+
+        position: absolute;
+        left: 180px;
+
+    }
+    .textCanal {
+
+        position: absolute;
+        left: 145px;
+
+    }
+
+
+    .d1 {
+
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 290px;
+        margin-top: 250px;
+        width: 120px;
+        height: 120px;
+    
+    
+    }
+    
+    .d2 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 290px;
+        margin-top: 430px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .d3 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 130px;
+        margin-top: 250px;
+        width: 120px;
+        height: 120px;
+    
+    }
+    
+    .d4 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 130px;
+        margin-top: 430px;
+        width: 120px;
+        height: 120px;
+    }
+    .confiar {
+
+        position: absolute;
+        left: 30px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        top: -10px;
+        background: #178864;
+    
+    
+    }
+    
+
+
+    .confiaman{
+
+
+        position: absolute;
+        right: 14px;
+        top: 18px;
+    
+
+    }
+
 
     .c2 {
 
@@ -1465,6 +1604,10 @@ input:checked+.label:after {
 
 @media screen and (max-width:380px) {
 
+
+
+
+    
     .c2 {
 
 
@@ -1506,4 +1649,97 @@ input:checked+.label:after {
         width: 200px;
 
     }
+}
+@media screen and (max-width:370px) {
+
+
+
+    .c3 {
+
+        position: absolute;
+        left: 170px;
+
+    }
+    .textCanal {
+
+        position: absolute;
+        left: 145px;
+
+    }
+
+
+    .d1 {
+
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 280px;
+        margin-top: 250px;
+        width: 120px;
+        height: 120px;
+    
+    
+    }
+    
+    .d2 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 280px;
+        margin-top: 430px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .d3 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 130px;
+        margin-top: 250px;
+        width: 120px;
+        height: 120px;
+    
+    }
+    
+    .d4 {
+        background-color: #ffffff;
+        border-style: inherit;
+        border-radius: 10px;
+        position: absolute;
+        left: 130px;
+        margin-top: 430px;
+        width: 120px;
+        height: 120px;
+    }
+    .confiar {
+
+        position: absolute;
+        left: 30px;
+        margin-top: 33px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        top: -10px;
+        background: #178864;
+    
+    
+    }
+    
+
+
+    .confiaman{
+
+
+        position: absolute;
+        right: 14px;
+        top: 18px;
+    
+
+    }
+
+
 }
