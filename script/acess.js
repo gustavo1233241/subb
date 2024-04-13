@@ -1,3 +1,6 @@
+var acessibilidade2cel = document.querySelector('.acessibilidade-cel') 
+console.log(acessibilidade2cel)
+
 var interuptor12 = true;
 function accessibilidadeSob() {
     var menum = document.getElementById('ad1');
@@ -7,7 +10,7 @@ function accessibilidadeSob() {
 
 
     if (interuptor12) {
-        menum.style.height = '100vh';
+        menum.style.height = '100%';
 
         menum1.style.display = 'block';
 
@@ -42,7 +45,7 @@ function accessibilidadeSob12() {
 
     
     if (interuptor11) {
-        menum12.style.height = '100vh';
+        menum12.style.height = '100%';
 
         menum13.style.display = 'block';
 
@@ -93,7 +96,7 @@ function accessibilidadeSob123() {
     var menum80 = document.getElementById('confiaman')
     
     if (interuptor11) {
-        menum12.style.height = '100vh';
+        menum12.style.height = '100%';
 
         menum13.style.display = 'block';
 
@@ -159,7 +162,7 @@ function accessibilidadeSob2() {
  
     
     if (interuptor14) {
-        menum12.style.height = '100vh';
+        menum12.style.height = '100%';
 
         menum13.style.display = 'block';
 

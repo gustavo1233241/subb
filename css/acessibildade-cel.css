@@ -10,7 +10,8 @@
     background: #faf8f8;
     width: 550px;
     height: 70px;
-    position: fixed;
+    top: 620px;
+    position: absolute;
 }
 
 
